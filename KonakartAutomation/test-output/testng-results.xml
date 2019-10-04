@@ -1,0 +1,772 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="6" failed="6" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-10-04T15:05:16Z" name="Suite" finished-at="2019-10-04T15:12:53Z" duration-ms="457510">
+    <groups>
+    </groups>
+    <test started-at="2019-10-04T15:05:16Z" name="InputFunctionalityTest" finished-at="2019-10-04T15:12:01Z" duration-ms="405551">
+      <class name="com.atmecs.testScripts.HomePagetestscripts">
+        <test-method is-config="true" signature="intitailizeBrowser()[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1df82230]" started-at="2019-10-04T15:05:16Z" name="intitailizeBrowser" finished-at="2019-10-04T15:05:23Z" duration-ms="6947" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intitailizeBrowser -->
+        <test-method signature="homePageRedirection()[pri:1, instance:com.atmecs.testScripts.HomePagetestscripts@1df82230]" started-at="2019-10-04T15:05:23Z" name="homePageRedirection" finished-at="2019-10-04T15:05:23Z" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageRedirection -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1df82230]" started-at="2019-10-04T15:05:23Z" name="tearDown" finished-at="2019-10-04T15:05:23Z" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=homePageRedirection status=SUCCESS method=HomePagetestscripts.homePageRedirection()[pri:1, instance:com.atmecs.testScripts.HomePagetestscripts@1df82230] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validateProductAvilability(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.atmecs.testScripts.HomePagetestscripts@1df82230]" started-at="2019-10-04T15:05:24Z" name="validateProductAvilability" data-provider="rightCategory" finished-at="2019-10-04T15:06:46Z" duration-ms="82296" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Computer Peripherals]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[graphics Cards]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Matrox G200 MMS]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to find element with xpath == //a[text()='Matrox G200 MMS']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-038', ip: '55.55.52.193', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: https://www.konakart.com/ko..., nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: b6197578-91f8-4efc-b7f4-75790864c94a
+*** Element info: {Using=xpath, value=//a[text()='Matrox G200 MMS']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //a[text()='Matrox G200 MMS']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-038', ip: '55.55.52.193', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: https://www.konakart.com/ko..., nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: b6197578-91f8-4efc-b7f4-75790864c94a
+*** Element info: {Using=xpath, value=//a[text()='Matrox G200 MMS']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.atmecs.helpers.WebUtility.getText(WebUtility.java:98)
+at com.atmecs.pages.HomePage.isProductAvailable(HomePage.java:37)
+at com.atmecs.testScripts.HomePagetestscripts.validateProductAvilability(HomePagetestscripts.java:47)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductAvilability -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1df82230]" started-at="2019-10-04T15:06:46Z" name="tearDown" finished-at="2019-10-04T15:06:47Z" duration-ms="238" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateProductAvilability status=FAILURE method=HomePagetestscripts.validateProductAvilability(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.atmecs.testScripts.HomePagetestscripts@1df82230] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validateProductAvilability(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.atmecs.testScripts.HomePagetestscripts@1df82230]" started-at="2019-10-04T15:06:47Z" name="validateProductAvilability" data-provider="rightCategory" finished-at="2019-10-04T15:08:01Z" duration-ms="74813" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Computer Peripherals]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[graphics card]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Matrox G200 MMS]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to find element with xpath == //a[text()='Matrox G200 MMS']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-038', ip: '55.55.52.193', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: https://www.konakart.com/ko..., nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: b6197578-91f8-4efc-b7f4-75790864c94a
+*** Element info: {Using=xpath, value=//a[text()='Matrox G200 MMS']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //a[text()='Matrox G200 MMS']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-038', ip: '55.55.52.193', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: https://www.konakart.com/ko..., nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: b6197578-91f8-4efc-b7f4-75790864c94a
+*** Element info: {Using=xpath, value=//a[text()='Matrox G200 MMS']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.atmecs.helpers.WebUtility.getText(WebUtility.java:98)
+at com.atmecs.pages.HomePage.isProductAvailable(HomePage.java:37)
+at com.atmecs.testScripts.HomePagetestscripts.validateProductAvilability(HomePagetestscripts.java:47)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductAvilability -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1df82230]" started-at="2019-10-04T15:08:01Z" name="tearDown" finished-at="2019-10-04T15:08:02Z" duration-ms="94" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateProductAvilability status=FAILURE method=HomePagetestscripts.validateProductAvilability(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.atmecs.testScripts.HomePagetestscripts@1df82230] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validateProductAvilability(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.atmecs.testScripts.HomePagetestscripts@1df82230]" started-at="2019-10-04T15:08:02Z" name="validateProductAvilability" data-provider="rightCategory" finished-at="2019-10-04T15:09:06Z" duration-ms="64496" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Games]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[call Of DUTY]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Call Of Duty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductAvilability -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1df82230]" started-at="2019-10-04T15:09:06Z" name="tearDown" finished-at="2019-10-04T15:09:06Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateProductAvilability status=SUCCESS method=HomePagetestscripts.validateProductAvilability(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.atmecs.testScripts.HomePagetestscripts@1df82230] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validateProductAvilability(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.atmecs.testScripts.HomePagetestscripts@1df82230]" started-at="2019-10-04T15:09:06Z" name="validateProductAvilability" data-provider="rightCategory" finished-at="2019-10-04T15:09:55Z" duration-ms="48901" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Software]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows 8]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows 8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductAvilability -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1df82230]" started-at="2019-10-04T15:09:55Z" name="tearDown" finished-at="2019-10-04T15:09:55Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateProductAvilability status=SUCCESS method=HomePagetestscripts.validateProductAvilability(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.atmecs.testScripts.HomePagetestscripts@1df82230] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validateErrorMessage(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.atmecs.testScripts.HomePagetestscripts@1df82230]" started-at="2019-10-04T15:09:55Z" name="validateErrorMessage" data-provider="wrongCategory" finished-at="2019-10-04T15:11:08Z" duration-ms="73084" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Computer Peripherals]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gyuwdwfduygbed]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[There are no available products.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateErrorMessage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1df82230]" started-at="2019-10-04T15:11:08Z" name="tearDown" finished-at="2019-10-04T15:11:08Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateErrorMessage status=SUCCESS method=HomePagetestscripts.validateErrorMessage(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.atmecs.testScripts.HomePagetestscripts@1df82230] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validateErrorMessage(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.atmecs.testScripts.HomePagetestscripts@1df82230]" started-at="2019-10-04T15:11:08Z" name="validateErrorMessage" data-provider="wrongCategory" finished-at="2019-10-04T15:12:01Z" duration-ms="52406" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Games]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gywdcygvgy]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[There are no available products.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateErrorMessage -->
+        <test-method is-config="true" signature="print()[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1df82230]" started-at="2019-10-04T15:12:01Z" name="print" finished-at="2019-10-04T15:12:01Z" duration-ms="669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- print -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1df82230]" started-at="2019-10-04T15:12:01Z" name="tearDown" finished-at="2019-10-04T15:12:01Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateErrorMessage status=SUCCESS method=HomePagetestscripts.validateErrorMessage(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.atmecs.testScripts.HomePagetestscripts@1df82230] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.atmecs.testScripts.HomePagetestscripts -->
+    </test> <!-- InputFunctionalityTest -->
+    <test started-at="2019-10-04T15:12:01Z" name="sortingFunctionalityTest" finished-at="2019-10-04T15:12:53Z" duration-ms="51851">
+      <class name="com.atmecs.testScripts.HeroImageProducttestscripts">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:com.atmecs.testScripts.HeroImageProducttestscripts@29176cc1]" started-at="2019-10-04T15:05:15Z" name="startReport" finished-at="2019-10-04T15:05:16Z" duration-ms="337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="intitailizeBrowser()[pri:0, instance:com.atmecs.testScripts.HeroImageProducttestscripts@29176cc1]" started-at="2019-10-04T15:12:01Z" name="intitailizeBrowser" finished-at="2019-10-04T15:12:05Z" duration-ms="3583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intitailizeBrowser -->
+        <test-method signature="homePageRedirection()[pri:4, instance:com.atmecs.testScripts.HeroImageProducttestscripts@29176cc1]" started-at="2019-10-04T15:12:05Z" name="homePageRedirection" finished-at="2019-10-04T15:12:05Z" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageRedirection -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HeroImageProducttestscripts@29176cc1]" started-at="2019-10-04T15:12:05Z" name="tearDown" finished-at="2019-10-04T15:12:05Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=homePageRedirection status=SUCCESS method=HeroImageProducttestscripts.homePageRedirection()[pri:4, instance:com.atmecs.testScripts.HeroImageProducttestscripts@29176cc1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validateContents()[pri:5, instance:com.atmecs.testScripts.HeroImageProducttestscripts@29176cc1]" started-at="2019-10-04T15:12:05Z" name="validateContents" finished-at="2019-10-04T15:12:17Z" duration-ms="12174" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to find element with xpath == (//p[@style='clear:both'])[1]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-038', ip: '55.55.52.193', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: https://www.konakart.com/ko..., nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: de3cf29a-0f88-4ca3-b84e-172fa00b31af
+*** Element info: {Using=xpath, value=(//p[@style='clear:both'])[1]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == (//p[@style='clear:both'])[1]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-038', ip: '55.55.52.193', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: https://www.konakart.com/ko..., nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: de3cf29a-0f88-4ca3-b84e-172fa00b31af
+*** Element info: {Using=xpath, value=(//p[@style='clear:both'])[1]}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.atmecs.helpers.WebUtility.getText(WebUtility.java:98)
+at com.atmecs.pages.HeroImageProductValidation.validateDescriptionContent(HeroImageProductValidation.java:34)
+at com.atmecs.testScripts.HeroImageProducttestscripts.validateContents(HeroImageProducttestscripts.java:45)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateContents -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HeroImageProducttestscripts@29176cc1]" started-at="2019-10-04T15:12:17Z" name="tearDown" finished-at="2019-10-04T15:12:17Z" duration-ms="244" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateContents status=FAILURE method=HeroImageProducttestscripts.validateContents()[pri:5, instance:com.atmecs.testScripts.HeroImageProducttestscripts@29176cc1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validateSortingFunctionality()[pri:6, instance:com.atmecs.testScripts.HeroImageProducttestscripts@29176cc1]" started-at="2019-10-04T15:12:17Z" name="validateSortingFunctionality" finished-at="2019-10-04T15:12:49Z" duration-ms="31362" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for com.atmecs.helpers.WebUtility$1@476e8796 (tried for 30 second(s) with 2000 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.atmecs.helpers.WebUtility$1@476e8796 (tried for 30 second(s) with 2000 milliseconds interval)
+at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at com.atmecs.helpers.WebUtility.clickElement(WebUtility.java:41)
+at com.atmecs.testflow.HeroImageProductPageFlow.clickCustomerReviews(HeroImageProductPageFlow.java:33)
+at com.atmecs.testScripts.HeroImageProducttestscripts.validateSortingFunctionality(HeroImageProducttestscripts.java:61)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: Element not clickable at point (545,16). Other element would receive the click: <div id="top-bar">
+  <div id="search-container">
+  <div class="top-bar-menu-item" id="top-bar-search">
+  <span title="Search" class="fa fa-search top-bar-menu-icon" id="open-search"></span> 
+</div>
+</div>
+<div id="selections-container">
+<div id="selections">
+  <div class="top-bar-menu-item" id="language-selector">
+  <form action="SetLocale.action" method="post">  
+  <input name="xsrf_token" type="hidden" value="null">
+<select name="locale" id="lang-select" style="display: none;" onchange="submit()">
+<option selected="selected" value="en_GB" data-icon="flag flag-en-GB">English</option>
+<option value="de_DE" data-icon="flag flag-de-DE">Deutsch</option>
+<option value="es_ES" data-icon="flag flag-es-ES">Español</option>
+<option value="pt_BR" data-icon="flag flag-pt-BR">Português</option>
+</select><span class="selectboxit-container" id="lang-selectSelectBoxItContainer"><span tabindex="0" class="selectboxit undefined selectboxit-btn" id="lang-selectSelectBoxIt" role="combobox" aria-expanded="false" aria-activedescendant="0" aria-owns="lang-selectSelectBoxItOptions" aria-live="assertive" aria-autocomplete="list" aria-label="" unselectable="on" name="locale"><span class="selectboxit-option-icon-container"><i class="selectboxit-default-icon selectboxit-option-icon flag flag-en-GB selectboxit-container" id="lang-selectSelectBoxItDefaultIcon" unselectable="on"></i></span><span class="selectboxit-text" id="lang-selectSelectBoxItText" style="max-width: 81px;" unselectable="on" data-val="en_GB">English</span><span class="selectboxit-arrow-container" id="lang-selectSelectBoxItArrowContainer" unselectable="on"><i class="selectboxit-arrow selectboxit-down-arrow" id="lang-selectSelectBoxItArrow" unselectable="on"></i></span></span><ul tabindex="-1" class="selectboxit-options selectboxit-list" id="lang-selectSelectBoxItOptions" role="listbox" aria-hidden="true"><li class="selectboxit-option selectboxit-option-first selectboxit-selected" id="0" role="option" data-icon="flag flag-en-GB" data-val="en_GB" data-disabled="false"><a class="selectboxit-option-anchor"><span class="selectboxit-option-icon-container"><i class="selectboxit-option-icon flag flag-en-GB selectboxit-container"></i></span>English</a></li><li class="selectboxit-option" id="1" role="option" data-icon="flag flag-de-DE" data-val="de_DE" data-disabled="false"><a class="selectboxit-option-anchor"><span class="selectboxit-option-icon-container"><i class="selectboxit-option-icon flag flag-de-DE selectboxit-container"></i></span>Deutsch</a></li><li class="selectboxit-option" id="2" role="option" data-icon="flag flag-es-ES" data-val="es_ES" data-disabled="false"><a class="selectboxit-option-anchor"><span class="selectboxit-option-icon-container"><i class="selectboxit-option-icon flag flag-es-ES selectboxit-container"></i></span>Español</a></li><li class="selectboxit-option selectboxit-option-last" id="3" role="option" data-icon="flag flag-pt-BR" data-val="pt_BR" data-disabled="false"><a class="selectboxit-option-anchor"><span class="selectboxit-option-icon-container"><i class="selectboxit-option-icon flag flag-pt-BR selectboxit-container"></i></span>Português</a></li></ul></span>
+</form>
+  </div>
+  <div class="top-bar-menu-item" id="currency-selector">
+<form action="SelectCurrency.action" method="post">  
+<input name="xsrf_token" type="hidden" value="null">
+<select name="currencyCode" id="currency-select" style="display: none;" onchange="submit()">
+
+
+
+<option value="USD">US $</option>
+
+
+
+
+<option value="EUR">EUR </option>
+
+
+</select><span class="selectboxit-container" id="currency-selectSelectBoxItContainer"><span tabindex="0" class="selectboxit undefined selectboxit-btn" id="currency-selectSelectBoxIt" role="combobox" aria-expanded="false" aria-activedescendant="0" aria-owns="currency-selectSelectBoxItOptions" aria-live="assertive" aria-autocomplete="list" aria-label="" unselectable="on" name="currencyCode"><span class="selectboxit-text" id="currency-selectSelectBoxItText" style="max-width: 85px;" unselectable="on" data-val="USD">US $</span><span class="selectboxit-arrow-container" id="currency-selectSelectBoxItArrowContainer" unselectable="on"><i class="selectboxit-arrow selectboxit-down-arrow" id="currency-selectSelectBoxItArrow" unselectable="on"></i></span></span><ul tabindex="-1" class="selectboxit-options selectboxit-list" id="currency-selectSelectBoxItOptions" role="listbox" aria-hidden="true"><li class="selectboxit-option selectboxit-option-first selectboxit-selected" id="0" role="option" data-val="USD" data-disabled="false"><a class="selectboxit-option-anchor"><span class="selectboxit-option-icon-container"><i class="selectboxit-option-icon  selectboxit-container"></i></span>US $</a></li><li class="selectboxit-option selectboxit-option-last" id="1" role="option" data-val="EUR" data-disabled="false"><a class="selectboxit-option-anchor"><span class="selectboxit-option-icon-container"><i class="selectboxit-option-icon  selectboxit-container"></i></span>EUR </a></li></ul></span>
+</form>  
+  </div>
+  </div>
+  </div>
+ <div id="options-container">
+  <div id="options">
+
+    
+  <div class="top-bar-menu-item" id="my-account">
+  <span class="fa fa-user top-bar-menu-icon"><a title="My Account" href="LogIn.action"></a></span>  
+  <span class="top-bar-menu-title"><a href="LogIn.action">My Account</a></span>
+  
+  </div>
+  
+
+  <div class="top-bar-menu-item" id="gift-registry">  
+  <span class="fa fa-gift top-bar-menu-icon"><a title="Gift Registries" class="header2-top" href="GiftRegistrySearch.action"></a></span> 
+  <span class="top-bar-menu-title"><a class="header2-top" href="GiftRegistrySearch.action">Gift Registries</a></span> 
+  </div>
+
+
+  <div class="top-bar-menu-item" id="wish-list">
+  <span title="Wish List" class="fa fa-heart-o top-bar-menu-icon"><span id="wishlist-items"></span></span>  
+  <span class="top-bar-menu-title">Wish List<span id="wishlist-items"> </span></span>
+   
+   <div id="wish-list-container" style="display: none;">
+   <div class="slide-out-shadow" id="wish-list-mouseover-shadow" style="right: 73.81px;"></div>
+  <div class="slide-out-contents shadow" id="wish-list-contents" style="right: 76.81px;">  
+  
+  Your Wish List is empty
+      
+  </div>
+</div> 
+</div>
+
+<div class="top-bar-menu-item" id="shopping-cart">
+<span title="Shopping Cart" class="fa fa-shopping-cart top-bar-menu-icon"><span id="basket-items"></span></span>  
+  <span class="shopping-cart-title top-bar-menu-title">Shopping Cart<span id="basket-items"> </span></span>
+  
+  
+  
+    <div id="shopping-cart-container">
+  <div class="slide-out-shadow" id="shopping-cart-mouseover-shadow"></div>
+  <div class="slide-out-contents shadow" id="shopping-cart-contents">
+
+Your Shopping Cart is empty
+  
+  </div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-038', ip: '55.55.52.193', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: https://www.konakart.com/ko..., nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: de3cf29a-0f88-4ca3-b84e-172fa00b31af
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at com.atmecs.helpers.WebUtility$1.apply(WebUtility.java:44)
+at com.atmecs.helpers.WebUtility$1.apply(WebUtility.java:1)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+... 28 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSortingFunctionality -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HeroImageProducttestscripts@29176cc1]" started-at="2019-10-04T15:12:49Z" name="tearDown" finished-at="2019-10-04T15:12:49Z" duration-ms="162" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateSortingFunctionality status=FAILURE method=HeroImageProducttestscripts.validateSortingFunctionality()[pri:6, instance:com.atmecs.testScripts.HeroImageProducttestscripts@29176cc1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validateSortingByDate()[pri:7, instance:com.atmecs.testScripts.HeroImageProducttestscripts@29176cc1]" started-at="2019-10-04T15:12:49Z" name="validateSortingByDate" finished-at="2019-10-04T15:12:51Z" duration-ms="1859" status="FAIL">
+          <exception class="java.lang.ArrayIndexOutOfBoundsException">
+            <message>
+              <![CDATA[Index 1 out of bounds for length 1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+at com.atmecs.pages.HeroImageProductValidation.validateDate(HeroImageProductValidation.java:64)
+at com.atmecs.testScripts.HeroImageProducttestscripts.validateSortingByDate(HeroImageProducttestscripts.java:75)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArrayIndexOutOfBoundsException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSortingByDate -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HeroImageProducttestscripts@29176cc1]" started-at="2019-10-04T15:12:51Z" name="tearDown" finished-at="2019-10-04T15:12:51Z" duration-ms="156" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateSortingByDate status=FAILURE method=HeroImageProducttestscripts.validateSortingByDate()[pri:7, instance:com.atmecs.testScripts.HeroImageProducttestscripts@29176cc1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validateSortingByRating()[pri:8, instance:com.atmecs.testScripts.HeroImageProducttestscripts@29176cc1]" started-at="2019-10-04T15:12:51Z" name="validateSortingByRating" finished-at="2019-10-04T15:12:52Z" duration-ms="1439" status="FAIL">
+          <exception class="org.openqa.selenium.JavascriptException">
+            <message>
+              <![CDATA[Cannot click on option element. Executing JavaScript click function returned an unexpected error, but no error could be returned from Internet Explorer's JavaScript engine.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-038', ip: '55.55.52.193', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: https://www.konakart.com/ko..., nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: de3cf29a-0f88-4ca3-b84e-172fa00b31af]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.JavascriptException: Cannot click on option element. Executing JavaScript click function returned an unexpected error, but no error could be returned from Internet Explorer's JavaScript engine.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-038', ip: '55.55.52.193', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: https://www.konakart.com/ko..., nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: de3cf29a-0f88-4ca3-b84e-172fa00b31af
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at org.openqa.selenium.support.ui.Select.setSelected(Select.java:311)
+at org.openqa.selenium.support.ui.Select.setSelectedByIndex(Select.java:293)
+at org.openqa.selenium.support.ui.Select.selectByIndex(Select.java:172)
+at com.atmecs.helpers.WebUtility$5.apply(WebUtility.java:295)
+at com.atmecs.helpers.WebUtility$5.apply(WebUtility.java:1)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+at com.atmecs.helpers.WebUtility.selectDropdownByIndex(WebUtility.java:290)
+at com.atmecs.testflow.HeroImageProductPageFlow.selectSortingDropdown(HeroImageProductPageFlow.java:40)
+at com.atmecs.testScripts.HeroImageProducttestscripts.validateSortingByRating(HeroImageProducttestscripts.java:89)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.JavascriptException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSortingByRating -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HeroImageProducttestscripts@29176cc1]" started-at="2019-10-04T15:12:52Z" name="tearDown" finished-at="2019-10-04T15:12:52Z" duration-ms="161" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateSortingByRating status=FAILURE method=HeroImageProducttestscripts.validateSortingByRating()[pri:8, instance:com.atmecs.testScripts.HeroImageProducttestscripts@29176cc1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="print()[pri:0, instance:com.atmecs.testScripts.HeroImageProducttestscripts@29176cc1]" started-at="2019-10-04T15:12:52Z" name="print" finished-at="2019-10-04T15:12:53Z" duration-ms="655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- print -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.atmecs.testScripts.HeroImageProducttestscripts@29176cc1]" started-at="2019-10-04T15:12:53Z" name="endReport" finished-at="2019-10-04T15:12:54Z" duration-ms="590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.atmecs.testScripts.HeroImageProducttestscripts -->
+    </test> <!-- sortingFunctionalityTest -->
+  </suite> <!-- Suite -->
+</testng-results>

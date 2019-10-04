@@ -1,0 +1,547 @@
+<html>
+<head>
+<title>TestNG:  sortingFunctionalityTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>sortingFunctionalityTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/4/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Oct 04 20:42:01 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>51 seconds (51851 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.atmecs.testScripts.HeroImageProducttestscripts.validateContents()'><b>validateContents</b><br>Test class: com.atmecs.testScripts.HeroImageProducttestscripts</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == (//p[@style=&apos;clear:both&apos;])[1]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ATMECSINLT-038&apos;, ip: &apos;55.55.52.193&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.1&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: https://www.konakart.com/ko..., nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: de3cf29a-0f88-4ca3-b84e-172fa00b31af
+*** Element info: {Using=xpath, value=(//p[@style=&apos;clear:both&apos;])[1]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.atmecs.helpers.WebUtility.getText(WebUtility.java:98)
+	at com.atmecs.pages.HeroImageProductValidation.validateDescriptionContent(HeroImageProductValidation.java:34)
+	at com.atmecs.testScripts.HeroImageProducttestscripts.validateContents(HeroImageProducttestscripts.java:45)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace532297836", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace532297836'><pre>org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == (//p[@style=&apos;clear:both&apos;])[1]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ATMECSINLT-038&apos;, ip: &apos;55.55.52.193&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.1&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: https://www.konakart.com/ko..., nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: de3cf29a-0f88-4ca3-b84e-172fa00b31af
+*** Element info: {Using=xpath, value=(//p[@style=&apos;clear:both&apos;])[1]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.atmecs.helpers.WebUtility.getText(WebUtility.java:98)
+	at com.atmecs.pages.HeroImageProductValidation.validateDescriptionContent(HeroImageProductValidation.java:34)
+	at com.atmecs.testScripts.HeroImageProducttestscripts.validateContents(HeroImageProducttestscripts.java:45)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>12</td>
+<td>com.atmecs.testScripts.HeroImageProducttestscripts@29176cc1</td></tr>
+<tr>
+<td title='com.atmecs.testScripts.HeroImageProducttestscripts.validateSortingByDate()'><b>validateSortingByDate</b><br>Test class: com.atmecs.testScripts.HeroImageProducttestscripts</td>
+<td><div><pre>java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at com.atmecs.pages.HeroImageProductValidation.validateDate(HeroImageProductValidation.java:64)
+	at com.atmecs.testScripts.HeroImageProducttestscripts.validateSortingByDate(HeroImageProducttestscripts.java:75)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace829053325", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace829053325'><pre>java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at com.atmecs.pages.HeroImageProductValidation.validateDate(HeroImageProductValidation.java:64)
+	at com.atmecs.testScripts.HeroImageProducttestscripts.validateSortingByDate(HeroImageProducttestscripts.java:75)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>1</td>
+<td>com.atmecs.testScripts.HeroImageProducttestscripts@29176cc1</td></tr>
+<tr>
+<td title='com.atmecs.testScripts.HeroImageProducttestscripts.validateSortingByRating()'><b>validateSortingByRating</b><br>Test class: com.atmecs.testScripts.HeroImageProducttestscripts</td>
+<td><div><pre>org.openqa.selenium.JavascriptException: Cannot click on option element. Executing JavaScript click function returned an unexpected error, but no error could be returned from Internet Explorer&apos;s JavaScript engine.
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ATMECSINLT-038&apos;, ip: &apos;55.55.52.193&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.1&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: https://www.konakart.com/ko..., nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: de3cf29a-0f88-4ca3-b84e-172fa00b31af
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.ui.Select.setSelected(Select.java:311)
+	at org.openqa.selenium.support.ui.Select.setSelectedByIndex(Select.java:293)
+	at org.openqa.selenium.support.ui.Select.selectByIndex(Select.java:172)
+	at com.atmecs.helpers.WebUtility$5.apply(WebUtility.java:295)
+	at com.atmecs.helpers.WebUtility$5.apply(WebUtility.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at com.atmecs.helpers.WebUtility.selectDropdownByIndex(WebUtility.java:290)
+	at com.atmecs.testflow.HeroImageProductPageFlow.selectSortingDropdown(HeroImageProductPageFlow.java:40)
+	at com.atmecs.testScripts.HeroImageProducttestscripts.validateSortingByRating(HeroImageProducttestscripts.java:89)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace8268900", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace8268900'><pre>org.openqa.selenium.JavascriptException: Cannot click on option element. Executing JavaScript click function returned an unexpected error, but no error could be returned from Internet Explorer&apos;s JavaScript engine.
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ATMECSINLT-038&apos;, ip: &apos;55.55.52.193&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.1&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: https://www.konakart.com/ko..., nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: de3cf29a-0f88-4ca3-b84e-172fa00b31af
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.ui.Select.setSelected(Select.java:311)
+	at org.openqa.selenium.support.ui.Select.setSelectedByIndex(Select.java:293)
+	at org.openqa.selenium.support.ui.Select.selectByIndex(Select.java:172)
+	at com.atmecs.helpers.WebUtility$5.apply(WebUtility.java:295)
+	at com.atmecs.helpers.WebUtility$5.apply(WebUtility.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at com.atmecs.helpers.WebUtility.selectDropdownByIndex(WebUtility.java:290)
+	at com.atmecs.testflow.HeroImageProductPageFlow.selectSortingDropdown(HeroImageProductPageFlow.java:40)
+	at com.atmecs.testScripts.HeroImageProducttestscripts.validateSortingByRating(HeroImageProducttestscripts.java:89)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>1</td>
+<td>com.atmecs.testScripts.HeroImageProducttestscripts@29176cc1</td></tr>
+<tr>
+<td title='com.atmecs.testScripts.HeroImageProducttestscripts.validateSortingFunctionality()'><b>validateSortingFunctionality</b><br>Test class: com.atmecs.testScripts.HeroImageProducttestscripts</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.atmecs.helpers.WebUtility$1@476e8796 (tried for 30 second(s) with 2000 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.atmecs.helpers.WebUtility.clickElement(WebUtility.java:41)
+	at com.atmecs.testflow.HeroImageProductPageFlow.clickCustomerReviews(HeroImageProductPageFlow.java:33)
+	at com.atmecs.testScripts.HeroImageProducttestscripts.validateSortingFunctionality(HeroImageProducttestscripts.java:61)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: Element not clickable at point (545,16). Other element would receive the click: &lt;div id=&quot;top-bar&quot;&gt;
+  		&lt;div id=&quot;search-container&quot;&gt;
+	  		&lt;div class=&quot;top-bar-menu-item&quot; id=&quot;top-bar-search&quot;&gt;
+			  	&lt;span title=&quot;Search&quot; class=&quot;fa fa-search top-bar-menu-icon&quot; id=&quot;open-search&quot;&gt;&lt;/span&gt; 
+			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div id=&quot;selections-container&quot;&gt;
+			&lt;div id=&quot;selections&quot;&gt;
+		  		&lt;div class=&quot;top-bar-menu-item&quot; id=&quot;language-selector&quot;&gt;
+		  			&lt;form action=&quot;SetLocale.action&quot; method=&quot;post&quot;&gt;  
+		  				&lt;input name=&quot;xsrf_token&quot; type=&quot;hidden&quot; value=&quot;null&quot;&gt;
+						&lt;select name=&quot;locale&quot; id=&quot;lang-select&quot; style=&quot;display: none;&quot; onchange=&quot;submit()&quot;&gt;
+							&lt;option selected=&quot;selected&quot; value=&quot;en_GB&quot; data-icon=&quot;flag flag-en-GB&quot;&gt;English&lt;/option&gt;
+							&lt;option value=&quot;de_DE&quot; data-icon=&quot;flag flag-de-DE&quot;&gt;Deutsch&lt;/option&gt;
+							&lt;option value=&quot;es_ES&quot; data-icon=&quot;flag flag-es-ES&quot;&gt;Español&lt;/option&gt;
+							&lt;option value=&quot;pt_BR&quot; data-icon=&quot;flag flag-pt-BR&quot;&gt;Português&lt;/option&gt;
+						&lt;/select&gt;&lt;span class=&quot;selectboxit-container&quot; id=&quot;lang-selectSelectBoxItContainer&quot;&gt;&lt;span tabindex=&quot;0&quot; class=&quot;selectboxit undefined selectboxit-btn&quot; id=&quot;lang-selectSelectBoxIt&quot; role=&quot;combobox&quot; aria-expanded=&quot;false&quot; aria-activedescendant=&quot;0&quot; aria-owns=&quot;lang-selectSelectBoxItOptions&quot; aria-live=&quot;assertive&quot; aria-autocomplete=&quot;list&quot; aria-label=&quot;&quot; unselectable=&quot;on&quot; name=&quot;locale&quot;&gt;&lt;span class=&quot;selectboxit-option-icon-container&quot;&gt;&lt;i class=&quot;selectboxit-default-icon selectboxit-option-icon flag flag-en-GB selectboxit-container&quot; id=&quot;lang-selectSelectBoxItDefaultIcon&quot; unselectable=&quot;on&quot;&gt;&lt;/i&gt;&lt;/span&gt;&lt;span class=&quot;selectboxit-text&quot; id=&quot;lang-selectSelectBoxItText&quot; style=&quot;max-width: 81px;&quot; unselectable=&quot;on&quot; data-val=&quot;en_GB&quot;&gt;English&lt;/span&gt;&lt;span class=&quot;selectboxit-arrow-container&quot; id=&quot;lang-selectSelectBoxItArrowContainer&quot; unselectable=&quot;on&quot;&gt;&lt;i class=&quot;selectboxit-arrow selectboxit-down-arrow&quot; id=&quot;lang-selectSelectBoxItArrow&quot; unselectable=&quot;on&quot;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/span&gt;&lt;ul tabindex=&quot;-1&quot; class=&quot;selectboxit-options selectboxit-list&quot; id=&quot;lang-selectSelectBoxItOptions&quot; role=&quot;listbox&quot; aria-hidden=&quot;true&quot;&gt;&lt;li class=&quot;selectboxit-option selectboxit-option-first selectboxit-selected&quot; id=&quot;0&quot; role=&quot;option&quot; data-icon=&quot;flag flag-en-GB&quot; data-val=&quot;en_GB&quot; data-disabled=&quot;false&quot;&gt;&lt;a class=&quot;selectboxit-option-anchor&quot;&gt;&lt;span class=&quot;selectboxit-option-icon-container&quot;&gt;&lt;i class=&quot;selectboxit-option-icon flag flag-en-GB selectboxit-container&quot;&gt;&lt;/i&gt;&lt;/span&gt;English&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;selectboxit-option&quot; id=&quot;1&quot; role=&quot;option&quot; data-icon=&quot;flag flag-de-DE&quot; data-val=&quot;de_DE&quot; data-disabled=&quot;false&quot;&gt;&lt;a class=&quot;selectboxit-option-anchor&quot;&gt;&lt;span class=&quot;selectboxit-option-icon-container&quot;&gt;&lt;i class=&quot;selectboxit-option-icon flag flag-de-DE selectboxit-container&quot;&gt;&lt;/i&gt;&lt;/span&gt;Deutsch&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;selectboxit-option&quot; id=&quot;2&quot; role=&quot;option&quot; data-icon=&quot;flag flag-es-ES&quot; data-val=&quot;es_ES&quot; data-disabled=&quot;false&quot;&gt;&lt;a class=&quot;selectboxit-option-anchor&quot;&gt;&lt;span class=&quot;selectboxit-option-icon-container&quot;&gt;&lt;i class=&quot;selectboxit-option-icon flag flag-es-ES selectboxit-container&quot;&gt;&lt;/i&gt;&lt;/span&gt;Español&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;selectboxit-option selectboxit-option-last&quot; id=&quot;3&quot; role=&quot;option&quot; data-icon=&quot;flag flag-pt-BR&quot; data-val=&quot;pt_BR&quot; data-disabled=&quot;false&quot;&gt;&lt;a class=&quot;selectboxit-option-anchor&quot;&gt;&lt;span class=&quot;selectboxit-option-icon-container&quot;&gt;&lt;i class=&quot;selectboxit-option-icon flag flag-pt-BR selectboxit-container&quot;&gt;&lt;/i&gt;&lt;/span&gt;Português&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/span&gt;
+					&lt;/form&gt;									
+		  		&lt;/div&gt;
+		  		&lt;div class=&quot;top-bar-menu-item&quot; id=&quot;currency-selector&quot;&gt;
+					&lt;form action=&quot;SelectCurrency.action&quot; method=&quot;post&quot;&gt;  
+						&lt;input name=&quot;xsrf_token&quot; type=&quot;hidden&quot; value=&quot;null&quot;&gt;
+						&lt;select name=&quot;currencyCode&quot; id=&quot;currency-select&quot; style=&quot;display: none;&quot; onchange=&quot;submit()&quot;&gt;
+							
+								
+								
+									&lt;option value=&quot;USD&quot;&gt;US $&lt;/option&gt;
+								
+							
+								
+								
+									&lt;option value=&quot;EUR&quot;&gt;EUR &lt;/option&gt;
+								
+							
+						&lt;/select&gt;&lt;span class=&quot;selectboxit-container&quot; id=&quot;currency-selectSelectBoxItContainer&quot;&gt;&lt;span tabindex=&quot;0&quot; class=&quot;selectboxit undefined selectboxit-btn&quot; id=&quot;currency-selectSelectBoxIt&quot; role=&quot;combobox&quot; aria-expanded=&quot;false&quot; aria-activedescendant=&quot;0&quot; aria-owns=&quot;currency-selectSelectBoxItOptions&quot; aria-live=&quot;assertive&quot; aria-autocomplete=&quot;list&quot; aria-label=&quot;&quot; unselectable=&quot;on&quot; name=&quot;currencyCode&quot;&gt;&lt;span class=&quot;selectboxit-text&quot; id=&quot;currency-selectSelectBoxItText&quot; style=&quot;max-width: 85px;&quot; unselectable=&quot;on&quot; data-val=&quot;USD&quot;&gt;US $&lt;/span&gt;&lt;span class=&quot;selectboxit-arrow-container&quot; id=&quot;currency-selectSelectBoxItArrowContainer&quot; unselectable=&quot;on&quot;&gt;&lt;i class=&quot;selectboxit-arrow selectboxit-down-arrow&quot; id=&quot;currency-selectSelectBoxItArrow&quot; unselectable=&quot;on&quot;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/span&gt;&lt;ul tabindex=&quot;-1&quot; class=&quot;selectboxit-options selectboxit-list&quot; id=&quot;currency-selectSelectBoxItOptions&quot; role=&quot;listbox&quot; aria-hidden=&quot;true&quot;&gt;&lt;li class=&quot;selectboxit-option selectboxit-option-first selectboxit-selected&quot; id=&quot;0&quot; role=&quot;option&quot; data-val=&quot;USD&quot; data-disabled=&quot;false&quot;&gt;&lt;a class=&quot;selectboxit-option-anchor&quot;&gt;&lt;span class=&quot;selectboxit-option-icon-container&quot;&gt;&lt;i class=&quot;selectboxit-option-icon  selectboxit-container&quot;&gt;&lt;/i&gt;&lt;/span&gt;US $&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;selectboxit-option selectboxit-option-last&quot; id=&quot;1&quot; role=&quot;option&quot; data-val=&quot;EUR&quot; data-disabled=&quot;false&quot;&gt;&lt;a class=&quot;selectboxit-option-anchor&quot;&gt;&lt;span class=&quot;selectboxit-option-icon-container&quot;&gt;&lt;i class=&quot;selectboxit-option-icon  selectboxit-container&quot;&gt;&lt;/i&gt;&lt;/span&gt;EUR &lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/span&gt;
+					&lt;/form&gt;										  			
+		  		&lt;/div&gt;
+		  	&lt;/div&gt;
+		  &lt;/div&gt;
+		 &lt;div id=&quot;options-container&quot;&gt;
+	  		&lt;div id=&quot;options&quot;&gt;		
+
+	  			  		
+	  		&lt;div class=&quot;top-bar-menu-item&quot; id=&quot;my-account&quot;&gt;
+	  			&lt;span class=&quot;fa fa-user top-bar-menu-icon&quot;&gt;&lt;a title=&quot;My Account&quot; href=&quot;LogIn.action&quot;&gt;&lt;/a&gt;&lt;/span&gt;  			
+		  		&lt;span class=&quot;top-bar-menu-title&quot;&gt;&lt;a href=&quot;LogIn.action&quot;&gt;My Account&lt;/a&gt;&lt;/span&gt;
+	  			
+	  		&lt;/div&gt;
+	  			
+
+		  		&lt;div class=&quot;top-bar-menu-item&quot; id=&quot;gift-registry&quot;&gt;		  
+		  			&lt;span class=&quot;fa fa-gift top-bar-menu-icon&quot;&gt;&lt;a title=&quot;Gift Registries&quot; class=&quot;header2-top&quot; href=&quot;GiftRegistrySearch.action&quot;&gt;&lt;/a&gt;&lt;/span&gt; 		
+		  			&lt;span class=&quot;top-bar-menu-title&quot;&gt;&lt;a class=&quot;header2-top&quot; href=&quot;GiftRegistrySearch.action&quot;&gt;Gift Registries&lt;/a&gt;&lt;/span&gt; 
+		  		&lt;/div&gt;	
+				
+			
+		  		&lt;div class=&quot;top-bar-menu-item&quot; id=&quot;wish-list&quot;&gt;	
+		  			&lt;span title=&quot;Wish List&quot; class=&quot;fa fa-heart-o top-bar-menu-icon&quot;&gt;&lt;span id=&quot;wishlist-items&quot;&gt;&lt;/span&gt;&lt;/span&gt;  			
+		  			&lt;span class=&quot;top-bar-menu-title&quot;&gt;Wish List&lt;span id=&quot;wishlist-items&quot;&gt; &lt;/span&gt;&lt;/span&gt;
+			  		 			
+			   		&lt;div id=&quot;wish-list-container&quot; style=&quot;display: none;&quot;&gt;
+			   		&lt;div class=&quot;slide-out-shadow&quot; id=&quot;wish-list-mouseover-shadow&quot; style=&quot;right: 73.81px;&quot;&gt;&lt;/div&gt;
+				  	&lt;div class=&quot;slide-out-contents shadow&quot; id=&quot;wish-list-contents&quot; style=&quot;right: 76.81px;&quot;&gt;			  	
+			  			
+			  				Your Wish List is empty
+			  							  				  	
+				  	&lt;/div&gt;	
+				&lt;/div&gt; 
+				&lt;/div&gt;
+			
+			&lt;div class=&quot;top-bar-menu-item&quot; id=&quot;shopping-cart&quot;&gt;
+				&lt;span title=&quot;Shopping Cart&quot; class=&quot;fa fa-shopping-cart top-bar-menu-icon&quot;&gt;&lt;span id=&quot;basket-items&quot;&gt;&lt;/span&gt;&lt;/span&gt;  			
+		  		&lt;span class=&quot;shopping-cart-title top-bar-menu-title&quot;&gt;Shopping Cart&lt;span id=&quot;basket-items&quot;&gt; &lt;/span&gt;&lt;/span&gt;
+		  		
+		  		
+		  	
+		    &lt;div id=&quot;shopping-cart-container&quot;&gt;
+			  	&lt;div class=&quot;slide-out-shadow&quot; id=&quot;shopping-cart-mouseover-shadow&quot;&gt;&lt;/div&gt;
+			  	&lt;div class=&quot;slide-out-contents shadow&quot; id=&quot;shopping-cart-contents&quot;&gt;
+						
+						Your Shopping Cart is empty
+									  		
+			  	&lt;/div&gt;	
+			&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;/div&gt;
+  	&lt;/div&gt;
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ATMECSINLT-038&apos;, ip: &apos;55.55.52.193&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.1&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: https://www.konakart.com/ko..., nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: de3cf29a-0f88-4ca3-b84e-172fa00b31af
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.atmecs.helpers.WebUtility$1.apply(WebUtility.java:44)
+	at com.atmecs.helpers.WebUtility$1.apply(WebUtility.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 28 more
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1680147911", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1680147911'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.atmecs.helpers.WebUtility$1@476e8796 (tried for 30 second(s) with 2000 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.atmecs.helpers.WebUtility.clickElement(WebUtility.java:41)
+	at com.atmecs.testflow.HeroImageProductPageFlow.clickCustomerReviews(HeroImageProductPageFlow.java:33)
+	at com.atmecs.testScripts.HeroImageProducttestscripts.validateSortingFunctionality(HeroImageProducttestscripts.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: Element not clickable at point (545,16). Other element would receive the click: &lt;div id=&quot;top-bar&quot;&gt;
+  		&lt;div id=&quot;search-container&quot;&gt;
+	  		&lt;div class=&quot;top-bar-menu-item&quot; id=&quot;top-bar-search&quot;&gt;
+			  	&lt;span title=&quot;Search&quot; class=&quot;fa fa-search top-bar-menu-icon&quot; id=&quot;open-search&quot;&gt;&lt;/span&gt; 
+			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div id=&quot;selections-container&quot;&gt;
+			&lt;div id=&quot;selections&quot;&gt;
+		  		&lt;div class=&quot;top-bar-menu-item&quot; id=&quot;language-selector&quot;&gt;
+		  			&lt;form action=&quot;SetLocale.action&quot; method=&quot;post&quot;&gt;  
+		  				&lt;input name=&quot;xsrf_token&quot; type=&quot;hidden&quot; value=&quot;null&quot;&gt;
+						&lt;select name=&quot;locale&quot; id=&quot;lang-select&quot; style=&quot;display: none;&quot; onchange=&quot;submit()&quot;&gt;
+							&lt;option selected=&quot;selected&quot; value=&quot;en_GB&quot; data-icon=&quot;flag flag-en-GB&quot;&gt;English&lt;/option&gt;
+							&lt;option value=&quot;de_DE&quot; data-icon=&quot;flag flag-de-DE&quot;&gt;Deutsch&lt;/option&gt;
+							&lt;option value=&quot;es_ES&quot; data-icon=&quot;flag flag-es-ES&quot;&gt;Español&lt;/option&gt;
+							&lt;option value=&quot;pt_BR&quot; data-icon=&quot;flag flag-pt-BR&quot;&gt;Português&lt;/option&gt;
+						&lt;/select&gt;&lt;span class=&quot;selectboxit-container&quot; id=&quot;lang-selectSelectBoxItContainer&quot;&gt;&lt;span tabindex=&quot;0&quot; class=&quot;selectboxit undefined selectboxit-btn&quot; id=&quot;lang-selectSelectBoxIt&quot; role=&quot;combobox&quot; aria-expanded=&quot;false&quot; aria-activedescendant=&quot;0&quot; aria-owns=&quot;lang-selectSelectBoxItOptions&quot; aria-live=&quot;assertive&quot; aria-autocomplete=&quot;list&quot; aria-label=&quot;&quot; unselectable=&quot;on&quot; name=&quot;locale&quot;&gt;&lt;span class=&quot;selectboxit-option-icon-container&quot;&gt;&lt;i class=&quot;selectboxit-default-icon selectboxit-option-icon flag flag-en-GB selectboxit-container&quot; id=&quot;lang-selectSelectBoxItDefaultIcon&quot; unselectable=&quot;on&quot;&gt;&lt;/i&gt;&lt;/span&gt;&lt;span class=&quot;selectboxit-text&quot; id=&quot;lang-selectSelectBoxItText&quot; style=&quot;max-width: 81px;&quot; unselectable=&quot;on&quot; data-val=&quot;en_GB&quot;&gt;English&lt;/span&gt;&lt;span class=&quot;selectboxit-arrow-container&quot; id=&quot;lang-selectSelectBoxItArrowContainer&quot; unselectable=&quot;on&quot;&gt;&lt;i class=&quot;selectboxit-arrow selectboxit-down-arrow&quot; id=&quot;lang-selectSelectBoxItArrow&quot; unselectable=&quot;on&quot;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/span&gt;&lt;ul tabindex=&quot;-1&quot; class=&quot;selectboxit-options selectboxit-list&quot; id=&quot;lang-selectSelectBoxItOptions&quot; role=&quot;listbox&quot; aria-hidden=&quot;true&quot;&gt;&lt;li class=&quot;selectboxit-option selectboxit-option-first selectboxit-selected&quot; id=&quot;0&quot; role=&quot;option&quot; data-icon=&quot;flag flag-en-GB&quot; data-val=&quot;en_GB&quot; data-disabled=&quot;false&quot;&gt;&lt;a class=&quot;selectboxit-option-anchor&quot;&gt;&lt;span class=&quot;selectboxit-option-icon-container&quot;&gt;&lt;i class=&quot;selectboxit-option-icon flag flag-en-GB selectboxit-container&quot;&gt;&lt;/i&gt;&lt;/span&gt;English&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;selectboxit-option&quot; id=&quot;1&quot; role=&quot;option&quot; data-icon=&quot;flag flag-de-DE&quot; data-val=&quot;de_DE&quot; data-disabled=&quot;false&quot;&gt;&lt;a class=&quot;selectboxit-option-anchor&quot;&gt;&lt;span class=&quot;selectboxit-option-icon-container&quot;&gt;&lt;i class=&quot;selectboxit-option-icon flag flag-de-DE selectboxit-container&quot;&gt;&lt;/i&gt;&lt;/span&gt;Deutsch&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;selectboxit-option&quot; id=&quot;2&quot; role=&quot;option&quot; data-icon=&quot;flag flag-es-ES&quot; data-val=&quot;es_ES&quot; data-disabled=&quot;false&quot;&gt;&lt;a class=&quot;selectboxit-option-anchor&quot;&gt;&lt;span class=&quot;selectboxit-option-icon-container&quot;&gt;&lt;i class=&quot;selectboxit-option-icon flag flag-es-ES selectboxit-container&quot;&gt;&lt;/i&gt;&lt;/span&gt;Español&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;selectboxit-option selectboxit-option-last&quot; id=&quot;3&quot; role=&quot;option&quot; data-icon=&quot;flag flag-pt-BR&quot; data-val=&quot;pt_BR&quot; data-disabled=&quot;false&quot;&gt;&lt;a class=&quot;selectboxit-option-anchor&quot;&gt;&lt;span class=&quot;selectboxit-option-icon-container&quot;&gt;&lt;i class=&quot;selectboxit-option-icon flag flag-pt-BR selectboxit-container&quot;&gt;&lt;/i&gt;&lt;/span&gt;Português&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/span&gt;
+					&lt;/form&gt;									
+		  		&lt;/div&gt;
+		  		&lt;div class=&quot;top-bar-menu-item&quot; id=&quot;currency-selector&quot;&gt;
+					&lt;form action=&quot;SelectCurrency.action&quot; method=&quot;post&quot;&gt;  
+						&lt;input name=&quot;xsrf_token&quot; type=&quot;hidden&quot; value=&quot;null&quot;&gt;
+						&lt;select name=&quot;currencyCode&quot; id=&quot;currency-select&quot; style=&quot;display: none;&quot; onchange=&quot;submit()&quot;&gt;
+							
+								
+								
+									&lt;option value=&quot;USD&quot;&gt;US $&lt;/option&gt;
+								
+							
+								
+								
+									&lt;option value=&quot;EUR&quot;&gt;EUR &lt;/option&gt;
+								
+							
+						&lt;/select&gt;&lt;span class=&quot;selectboxit-container&quot; id=&quot;currency-selectSelectBoxItContainer&quot;&gt;&lt;span tabindex=&quot;0&quot; class=&quot;selectboxit undefined selectboxit-btn&quot; id=&quot;currency-selectSelectBoxIt&quot; role=&quot;combobox&quot; aria-expanded=&quot;false&quot; aria-activedescendant=&quot;0&quot; aria-owns=&quot;currency-selectSelectBoxItOptions&quot; aria-live=&quot;assertive&quot; aria-autocomplete=&quot;list&quot; aria-label=&quot;&quot; unselectable=&quot;on&quot; name=&quot;currencyCode&quot;&gt;&lt;span class=&quot;selectboxit-text&quot; id=&quot;currency-selectSelectBoxItText&quot; style=&quot;max-width: 85px;&quot; unselectable=&quot;on&quot; data-val=&quot;USD&quot;&gt;US $&lt;/span&gt;&lt;span class=&quot;selectboxit-arrow-container&quot; id=&quot;currency-selectSelectBoxItArrowContainer&quot; unselectable=&quot;on&quot;&gt;&lt;i class=&quot;selectboxit-arrow selectboxit-down-arrow&quot; id=&quot;currency-selectSelectBoxItArrow&quot; unselectable=&quot;on&quot;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/span&gt;&lt;ul tabindex=&quot;-1&quot; class=&quot;selectboxit-options selectboxit-list&quot; id=&quot;currency-selectSelectBoxItOptions&quot; role=&quot;listbox&quot; aria-hidden=&quot;true&quot;&gt;&lt;li class=&quot;selectboxit-option selectboxit-option-first selectboxit-selected&quot; id=&quot;0&quot; role=&quot;option&quot; data-val=&quot;USD&quot; data-disabled=&quot;false&quot;&gt;&lt;a class=&quot;selectboxit-option-anchor&quot;&gt;&lt;span class=&quot;selectboxit-option-icon-container&quot;&gt;&lt;i class=&quot;selectboxit-option-icon  selectboxit-container&quot;&gt;&lt;/i&gt;&lt;/span&gt;US $&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;selectboxit-option selectboxit-option-last&quot; id=&quot;1&quot; role=&quot;option&quot; data-val=&quot;EUR&quot; data-disabled=&quot;false&quot;&gt;&lt;a class=&quot;selectboxit-option-anchor&quot;&gt;&lt;span class=&quot;selectboxit-option-icon-container&quot;&gt;&lt;i class=&quot;selectboxit-option-icon  selectboxit-container&quot;&gt;&lt;/i&gt;&lt;/span&gt;EUR &lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/span&gt;
+					&lt;/form&gt;										  			
+		  		&lt;/div&gt;
+		  	&lt;/div&gt;
+		  &lt;/div&gt;
+		 &lt;div id=&quot;options-container&quot;&gt;
+	  		&lt;div id=&quot;options&quot;&gt;		
+
+	  			  		
+	  		&lt;div class=&quot;top-bar-menu-item&quot; id=&quot;my-account&quot;&gt;
+	  			&lt;span class=&quot;fa fa-user top-bar-menu-icon&quot;&gt;&lt;a title=&quot;My Account&quot; href=&quot;LogIn.action&quot;&gt;&lt;/a&gt;&lt;/span&gt;  			
+		  		&lt;span class=&quot;top-bar-menu-title&quot;&gt;&lt;a href=&quot;LogIn.action&quot;&gt;My Account&lt;/a&gt;&lt;/span&gt;
+	  			
+	  		&lt;/div&gt;
+	  			
+
+		  		&lt;div class=&quot;top-bar-menu-item&quot; id=&quot;gift-registry&quot;&gt;		  
+		  			&lt;span class=&quot;fa fa-gift top-bar-menu-icon&quot;&gt;&lt;a title=&quot;Gift Registries&quot; class=&quot;header2-top&quot; href=&quot;GiftRegistrySearch.action&quot;&gt;&lt;/a&gt;&lt;/span&gt; 		
+		  			&lt;span class=&quot;top-bar-menu-title&quot;&gt;&lt;a class=&quot;header2-top&quot; href=&quot;GiftRegistrySearch.action&quot;&gt;Gift Registries&lt;/a&gt;&lt;/span&gt; 
+		  		&lt;/div&gt;	
+				
+			
+		  		&lt;div class=&quot;top-bar-menu-item&quot; id=&quot;wish-list&quot;&gt;	
+		  			&lt;span title=&quot;Wish List&quot; class=&quot;fa fa-heart-o top-bar-menu-icon&quot;&gt;&lt;span id=&quot;wishlist-items&quot;&gt;&lt;/span&gt;&lt;/span&gt;  			
+		  			&lt;span class=&quot;top-bar-menu-title&quot;&gt;Wish List&lt;span id=&quot;wishlist-items&quot;&gt; &lt;/span&gt;&lt;/span&gt;
+			  		 			
+			   		&lt;div id=&quot;wish-list-container&quot; style=&quot;display: none;&quot;&gt;
+			   		&lt;div class=&quot;slide-out-shadow&quot; id=&quot;wish-list-mouseover-shadow&quot; style=&quot;right: 73.81px;&quot;&gt;&lt;/div&gt;
+				  	&lt;div class=&quot;slide-out-contents shadow&quot; id=&quot;wish-list-contents&quot; style=&quot;right: 76.81px;&quot;&gt;			  	
+			  			
+			  				Your Wish List is empty
+			  							  				  	
+				  	&lt;/div&gt;	
+				&lt;/div&gt; 
+				&lt;/div&gt;
+			
+			&lt;div class=&quot;top-bar-menu-item&quot; id=&quot;shopping-cart&quot;&gt;
+				&lt;span title=&quot;Shopping Cart&quot; class=&quot;fa fa-shopping-cart top-bar-menu-icon&quot;&gt;&lt;span id=&quot;basket-items&quot;&gt;&lt;/span&gt;&lt;/span&gt;  			
+		  		&lt;span class=&quot;shopping-cart-title top-bar-menu-title&quot;&gt;Shopping Cart&lt;span id=&quot;basket-items&quot;&gt; &lt;/span&gt;&lt;/span&gt;
+		  		
+		  		
+		  	
+		    &lt;div id=&quot;shopping-cart-container&quot;&gt;
+			  	&lt;div class=&quot;slide-out-shadow&quot; id=&quot;shopping-cart-mouseover-shadow&quot;&gt;&lt;/div&gt;
+			  	&lt;div class=&quot;slide-out-contents shadow&quot; id=&quot;shopping-cart-contents&quot;&gt;
+						
+						Your Shopping Cart is empty
+									  		
+			  	&lt;/div&gt;	
+			&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;/div&gt;
+  	&lt;/div&gt;
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ATMECSINLT-038&apos;, ip: &apos;55.55.52.193&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.1&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: https://www.konakart.com/ko..., nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: de3cf29a-0f88-4ca3-b84e-172fa00b31af
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.atmecs.helpers.WebUtility$1.apply(WebUtility.java:44)
+	at com.atmecs.helpers.WebUtility$1.apply(WebUtility.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 28 more
+</pre></div></td>
+<td>31</td>
+<td>com.atmecs.testScripts.HeroImageProducttestscripts@29176cc1</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.atmecs.testScripts.HeroImageProducttestscripts.homePageRedirection()'><b>homePageRedirection</b><br>Test class: com.atmecs.testScripts.HeroImageProducttestscripts</td>
+<td></td>
+<td>0</td>
+<td>com.atmecs.testScripts.HeroImageProducttestscripts@29176cc1</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,504 @@
+2019-10-04 14:54:36,747  INFO [main] HomePagetestscripts:31 - Starting Redirection validation
+2019-10-04 14:54:36,788  INFO [main] HomePagetestscripts:33 - Redirection is on the correct page
+2019-10-04 14:54:36,789  INFO [main] HomePagetestscripts:34 - Starting the homepage testing
+2019-10-04 14:55:19,261 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-10-04 14:55:19,323 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-10-04 14:55:19,323 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-10-04 14:55:19,340 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-10-04 14:55:19,341 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-10-04 14:55:19,701 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-10-04 14:55:19,701 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-10-04 14:55:19,701 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-10-04 14:55:19,701 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-10-04 14:55:19,701 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-10-04 15:04:43,692  INFO [main] HomePagetestscripts:31 - Starting Redirection validation
+2019-10-04 15:04:43,719  INFO [main] HomePagetestscripts:33 - Redirection is on the correct page
+2019-10-04 15:04:43,719  INFO [main] HomePagetestscripts:34 - Starting the homepage testing
+2019-10-04 15:05:10,533  INFO [main] HomePagetestscripts:46 - Validation done
+2019-10-04 15:05:19,007 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-10-04 15:05:19,007 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-10-04 15:05:19,007 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-10-04 15:05:19,022 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-10-04 15:05:19,022 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-10-04 15:05:19,272 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-10-04 15:05:19,288 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-10-04 15:05:19,289 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-10-04 15:05:19,290 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-10-04 15:05:19,290 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-10-04 15:09:02,331  INFO [main] HomePagetestscripts:31 - Starting Redirection validation
+2019-10-04 15:09:02,357  INFO [main] HomePagetestscripts:33 - Redirection is on the correct page
+2019-10-04 15:09:02,357  INFO [main] HomePagetestscripts:34 - Starting the homepage testing
+2019-10-04 15:09:21,277  INFO [main] HomePagetestscripts:46 - Validation done
+2019-10-04 15:09:22,188 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-10-04 15:09:22,188 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-10-04 15:09:22,188 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-10-04 15:09:22,188 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-10-04 15:09:22,188 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-10-04 15:09:22,469 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-10-04 15:09:22,471 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-10-04 15:09:22,472 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-10-04 15:09:22,473 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-10-04 15:09:22,473 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-10-04 15:16:31,412  INFO [main] HomePagetestscripts:32 - Starting Redirection validation
+2019-10-04 15:16:31,436  INFO [main] HomePagetestscripts:34 - Redirection is on the correct page
+2019-10-04 15:16:31,436  INFO [main] HomePagetestscripts:35 - Starting the homepage testing
+2019-10-04 15:16:50,813  INFO [main] HomePagetestscripts:48 - Validation done
+2019-10-04 15:16:52,361  INFO [main] HomePagetestscripts:63 - Validation done
+2019-10-04 15:16:53,657  INFO [main] HomePagetestscripts:63 - Validation done
+2019-10-04 15:16:54,598 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-10-04 15:16:54,600 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-10-04 15:16:54,602 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-10-04 15:16:54,604 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-10-04 15:16:54,605 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-10-04 15:16:55,084 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-10-04 15:16:55,085 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-10-04 15:16:55,091 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-10-04 15:16:55,092 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-10-04 15:16:55,093 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-10-04 15:53:30,356  INFO [main] HeroImageProducttestscripts:26 - Starting Redirection validation
+2019-10-04 15:53:30,382  INFO [main] HeroImageProducttestscripts:28 - Redirection is on the correct page
+2019-10-04 15:53:30,382  INFO [main] HeroImageProducttestscripts:29 - Starting the Hero Image Product Validation testing
+2019-10-04 15:53:42,089 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-10-04 15:53:42,092 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-10-04 15:53:42,095 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-10-04 15:53:42,098 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-10-04 15:53:42,103 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-10-04 16:25:01,419  INFO [main] HeroImageProducttestscripts:26 - Starting Redirection validation
+2019-10-04 16:25:01,445  INFO [main] HeroImageProducttestscripts:28 - Redirection is on the correct page
+2019-10-04 16:25:01,445  INFO [main] HeroImageProducttestscripts:29 - Starting the Hero Image Product Validation testing
+2019-10-04 16:25:06,888  INFO [main] HeroImageProducttestscripts:53 - Content is present
+2019-10-04 16:25:06,888  INFO [main] HeroImageProducttestscripts:54 - Starting Sorting functionality testing
+2019-10-04 16:25:07,830 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-10-04 16:25:07,846 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-10-04 16:25:07,846 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-10-04 16:25:07,846 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-10-04 16:25:07,846 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-10-04 16:25:08,205 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-10-04 16:25:08,205 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-10-04 16:25:08,205 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-10-04 16:25:08,205 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-10-04 16:25:08,205 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-10-04 16:26:06,692  INFO [main] HeroImageProducttestscripts:26 - Starting Redirection validation
+2019-10-04 16:26:06,721  INFO [main] HeroImageProducttestscripts:28 - Redirection is on the correct page
+2019-10-04 16:26:06,721  INFO [main] HeroImageProducttestscripts:29 - Starting the Hero Image Product Validation testing
+2019-10-04 16:26:11,636  INFO [main] HeroImageProducttestscripts:40 - Content validation is correct
+2019-10-04 16:26:11,827  INFO [main] HeroImageProducttestscripts:43 - Content is present
+2019-10-04 16:26:11,827  INFO [main] HeroImageProducttestscripts:44 - Starting Sorting functionality testing
+2019-10-04 16:26:11,975  INFO [main] HeroImageProducttestscripts:53 - Content is present
+2019-10-04 16:26:11,975  INFO [main] HeroImageProducttestscripts:54 - Starting Sorting functionality testing
+2019-10-04 16:26:13,156 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-10-04 16:26:13,156 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-10-04 16:26:13,171 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-10-04 16:26:13,187 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-10-04 16:26:13,187 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-10-04 16:26:13,593 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-10-04 16:26:13,593 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-10-04 16:26:13,593 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-10-04 16:26:13,609 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-10-04 16:26:13,609 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-10-04 16:42:15,018  INFO [main] HeroImageProducttestscripts:26 - Starting Redirection validation
+2019-10-04 16:42:15,049  INFO [main] HeroImageProducttestscripts:28 - Redirection is on the correct page
+2019-10-04 16:42:15,049  INFO [main] HeroImageProducttestscripts:29 - Starting the Hero Image Product Validation testing
+2019-10-04 16:42:21,297  INFO [main] HeroImageProducttestscripts:53 - Content is present
+2019-10-04 16:42:21,297  INFO [main] HeroImageProducttestscripts:54 - Starting Sorting functionality testing
+2019-10-04 16:42:22,245 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-10-04 16:42:22,249 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-10-04 16:42:22,253 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-10-04 16:42:22,257 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-10-04 16:42:22,257 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-10-04 16:42:22,649 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-10-04 16:42:22,653 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-10-04 16:42:22,653 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-10-04 16:42:22,653 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-10-04 16:42:22,653 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-10-04 16:46:01,834  INFO [main] HeroImageProducttestscripts:26 - Starting Redirection validation
+2019-10-04 16:46:01,875  INFO [main] HeroImageProducttestscripts:28 - Redirection is on the correct page
+2019-10-04 16:46:01,875  INFO [main] HeroImageProducttestscripts:29 - Starting the Hero Image Product Validation testing
+2019-10-04 16:46:06,511  INFO [main] HeroImageProducttestscripts:40 - Content validation is correct
+2019-10-04 16:46:07,346  INFO [main] HeroImageProducttestscripts:53 - Content is present
+2019-10-04 16:46:07,346  INFO [main] HeroImageProducttestscripts:54 - Starting Sorting functionality testing
+2019-10-04 16:46:08,301 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-10-04 16:46:08,305 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-10-04 16:46:08,309 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-10-04 16:46:08,313 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-10-04 16:46:08,313 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-10-04 16:46:08,625 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-10-04 16:46:08,625 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-10-04 16:46:08,625 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-10-04 16:46:08,625 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-10-04 16:46:08,629 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-10-04 16:48:03,599  INFO [main] HeroImageProducttestscripts:26 - Starting Redirection validation
+2019-10-04 16:48:03,630  INFO [main] HeroImageProducttestscripts:28 - Redirection is on the correct page
+2019-10-04 16:48:03,630  INFO [main] HeroImageProducttestscripts:29 - Starting the Hero Image Product Validation testing
+2019-10-04 16:48:08,873  INFO [main] HeroImageProducttestscripts:40 - Content validation is correct
+2019-10-04 16:48:09,146  INFO [main] HeroImageProducttestscripts:43 - Content is present
+2019-10-04 16:48:09,146  INFO [main] HeroImageProducttestscripts:44 - Starting Sorting functionality testing
+2019-10-04 16:48:09,262  INFO [main] HeroImageProducttestscripts:53 - Content is present
+2019-10-04 16:48:09,262  INFO [main] HeroImageProducttestscripts:54 - Starting Sorting functionality testing
+2019-10-04 16:48:10,298 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-10-04 16:48:10,302 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-10-04 16:48:10,310 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-10-04 16:48:10,314 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-10-04 16:48:10,318 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-10-04 16:48:10,626 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-10-04 16:48:10,626 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-10-04 16:48:10,626 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-10-04 16:48:10,630 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-10-04 16:48:10,630 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-10-04 18:06:12,305 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-10-04 18:06:12,312 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-10-04 18:06:12,315 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-10-04 18:06:12,317 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-10-04 18:06:12,319 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-10-04 18:06:12,806 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-10-04 18:06:12,807 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-10-04 18:06:12,808 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-10-04 18:06:12,809 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-10-04 18:06:12,809 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-10-04 18:07:02,421  INFO [main] HeroImageProducttestscripts:26 - Starting Redirection validation
+2019-10-04 18:07:02,453  INFO [main] HeroImageProducttestscripts:28 - Redirection is on the correct page
+2019-10-04 18:07:02,454  INFO [main] HeroImageProducttestscripts:29 - Starting the Hero Image Product Validation testing
+2019-10-04 18:07:08,315  INFO [main] HeroImageProducttestscripts:40 - Content validation is correct
+2019-10-04 18:07:08,708  INFO [main] HeroImageProducttestscripts:43 - Content is present
+2019-10-04 18:07:08,709  INFO [main] HeroImageProducttestscripts:44 - Starting Sorting functionality testing
+2019-10-04 18:07:08,876  INFO [main] HeroImageProducttestscripts:53 - Content is present
+2019-10-04 18:07:08,877  INFO [main] HeroImageProducttestscripts:54 - Starting Sorting functionality testing
+2019-10-04 18:07:13,831 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-10-04 18:07:13,834 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-10-04 18:07:13,838 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-10-04 18:07:13,840 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-10-04 18:07:13,845 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-10-04 18:07:14,331 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-10-04 18:07:14,332 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-10-04 18:07:14,333 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-10-04 18:07:14,336 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-10-04 18:07:14,336 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-10-04 18:07:58,220  INFO [main] HeroImageProducttestscripts:26 - Starting Redirection validation
+2019-10-04 18:07:58,246  INFO [main] HeroImageProducttestscripts:28 - Redirection is on the correct page
+2019-10-04 18:07:58,246  INFO [main] HeroImageProducttestscripts:29 - Starting the Hero Image Product Validation testing
+2019-10-04 18:08:04,646  INFO [main] HeroImageProducttestscripts:40 - Content validation is correct
+2019-10-04 18:08:04,837  INFO [main] HeroImageProducttestscripts:43 - Content is present
+2019-10-04 18:08:04,838  INFO [main] HeroImageProducttestscripts:44 - Starting Sorting functionality testing
+2019-10-04 18:08:04,962  INFO [main] HeroImageProducttestscripts:53 - Content is present
+2019-10-04 18:08:04,963  INFO [main] HeroImageProducttestscripts:54 - Starting Sorting functionality testing
+2019-10-04 18:08:15,194 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-10-04 18:08:15,196 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-10-04 18:08:15,199 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-10-04 18:08:15,202 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-10-04 18:08:15,203 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-10-04 18:08:15,652 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-10-04 18:08:15,653 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-10-04 18:08:15,654 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-10-04 18:08:15,656 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-10-04 18:08:15,657 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-10-04 18:13:06,719  INFO [main] HeroImageProducttestscripts:26 - Starting Redirection validation
+2019-10-04 18:13:06,801  INFO [main] HeroImageProducttestscripts:28 - Redirection is on the correct page
+2019-10-04 18:13:06,802  INFO [main] HeroImageProducttestscripts:29 - Starting the Hero Image Product Validation testing
+2019-10-04 18:13:12,255  INFO [main] HeroImageProducttestscripts:40 - Content validation is correct
+2019-10-04 18:13:12,474  INFO [main] HeroImageProducttestscripts:43 - Content is present
+2019-10-04 18:13:12,475  INFO [main] HeroImageProducttestscripts:44 - Starting Sorting functionality testing
+2019-10-04 18:13:12,630  INFO [main] HeroImageProducttestscripts:53 - Content is present
+2019-10-04 18:13:12,631  INFO [main] HeroImageProducttestscripts:54 - Starting Sorting functionality testing
+2019-10-04 18:13:14,422 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-10-04 18:13:14,425 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-10-04 18:13:14,428 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-10-04 18:13:14,430 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-10-04 18:13:14,431 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-10-04 18:13:14,798 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-10-04 18:13:14,799 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-10-04 18:13:14,800 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-10-04 18:13:14,802 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-10-04 18:13:14,803 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-10-04 18:21:41,343  INFO [main] HeroImageProducttestscripts:26 - Starting Redirection validation
+2019-10-04 18:21:41,364  INFO [main] HeroImageProducttestscripts:28 - Redirection is on the correct page
+2019-10-04 18:21:41,364  INFO [main] HeroImageProducttestscripts:29 - Starting the Hero Image Product Validation testing
+2019-10-04 18:21:47,282  INFO [main] HeroImageProducttestscripts:40 - Content validation is correct
+2019-10-04 18:21:47,674  INFO [main] HeroImageProducttestscripts:43 - Content is present
+2019-10-04 18:21:47,678  INFO [main] HeroImageProducttestscripts:44 - Starting Sorting functionality testing
+2019-10-04 18:21:47,810  INFO [main] HeroImageProducttestscripts:53 - Content is present
+2019-10-04 18:21:47,810  INFO [main] HeroImageProducttestscripts:54 - Starting Sorting functionality testing
+2019-10-04 18:21:49,887 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-10-04 18:21:49,891 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-10-04 18:21:49,892 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-10-04 18:21:49,896 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-10-04 18:21:49,896 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-10-04 18:21:50,188 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-10-04 18:21:50,188 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-10-04 18:21:50,188 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-10-04 18:21:50,192 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-10-04 18:21:50,192 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-10-04 18:26:04,678  INFO [main] HeroImageProducttestscripts:26 - Starting Redirection validation
+2019-10-04 18:26:04,703  INFO [main] HeroImageProducttestscripts:28 - Redirection is on the correct page
+2019-10-04 18:26:04,703  INFO [main] HeroImageProducttestscripts:29 - Starting the Hero Image Product Validation testing
+2019-10-04 18:26:09,648  INFO [main] HeroImageProducttestscripts:40 - Content validation is correct
+2019-10-04 18:26:09,848  INFO [main] HeroImageProducttestscripts:43 - Content is present
+2019-10-04 18:26:09,848  INFO [main] HeroImageProducttestscripts:44 - Starting Sorting functionality testing
+2019-10-04 18:26:10,000  INFO [main] HeroImageProducttestscripts:53 - Content is present
+2019-10-04 18:26:10,000  INFO [main] HeroImageProducttestscripts:54 - Starting Sorting functionality testing
+2019-10-04 18:26:11,897 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-10-04 18:26:11,901 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-10-04 18:26:11,905 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-10-04 18:26:11,909 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-10-04 18:26:11,910 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-10-04 18:26:12,343 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-10-04 18:26:12,343 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-10-04 18:26:12,343 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-10-04 18:26:12,347 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-10-04 18:26:12,347 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-10-04 18:27:32,684  INFO [main] HeroImageProducttestscripts:26 - Starting Redirection validation
+2019-10-04 18:27:32,713  INFO [main] HeroImageProducttestscripts:28 - Redirection is on the correct page
+2019-10-04 18:27:32,713  INFO [main] HeroImageProducttestscripts:29 - Starting the Hero Image Product Validation testing
+2019-10-04 18:27:37,076  INFO [main] HeroImageProducttestscripts:40 - Content validation is correct
+2019-10-04 18:27:37,293  INFO [main] HeroImageProducttestscripts:43 - Content is present
+2019-10-04 18:27:37,293  INFO [main] HeroImageProducttestscripts:44 - Starting Sorting functionality testing
+2019-10-04 18:27:37,421  INFO [main] HeroImageProducttestscripts:53 - Content is present
+2019-10-04 18:27:37,421  INFO [main] HeroImageProducttestscripts:54 - Starting Sorting functionality testing
+2019-10-04 18:27:39,303 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-10-04 18:27:39,307 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-10-04 18:27:39,311 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-10-04 18:27:39,315 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-10-04 18:27:39,315 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-10-04 18:27:39,714 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-10-04 18:27:39,717 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-10-04 18:27:39,718 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-10-04 18:27:39,719 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-10-04 18:27:39,719 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-10-04 18:29:04,446  INFO [main] HeroImageProducttestscripts:26 - Starting Redirection validation
+2019-10-04 18:29:04,480  INFO [main] HeroImageProducttestscripts:28 - Redirection is on the correct page
+2019-10-04 18:29:04,480  INFO [main] HeroImageProducttestscripts:29 - Starting the Hero Image Product Validation testing
+2019-10-04 18:29:11,000  INFO [main] HeroImageProducttestscripts:40 - Content validation is correct
+2019-10-04 18:29:11,224  INFO [main] HeroImageProducttestscripts:43 - Content is present
+2019-10-04 18:29:11,228  INFO [main] HeroImageProducttestscripts:44 - Starting Sorting functionality testing
+2019-10-04 18:29:11,356  INFO [main] HeroImageProducttestscripts:53 - Content is present
+2019-10-04 18:29:11,356  INFO [main] HeroImageProducttestscripts:54 - Starting Sorting functionality testing
+2019-10-04 18:29:13,296 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-10-04 18:29:13,300 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-10-04 18:29:13,304 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-10-04 18:29:13,304 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-10-04 18:29:13,304 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-10-04 18:29:13,620 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-10-04 18:29:13,621 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-10-04 18:29:13,622 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-10-04 18:29:13,626 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-10-04 18:29:13,626 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-10-04 18:32:30,047  INFO [main] HeroImageProducttestscripts:26 - Starting Redirection validation
+2019-10-04 18:32:30,076  INFO [main] HeroImageProducttestscripts:28 - Redirection is on the correct page
+2019-10-04 18:32:30,076  INFO [main] HeroImageProducttestscripts:29 - Starting the Hero Image Product Validation testing
+2019-10-04 18:32:35,938  INFO [main] HeroImageProducttestscripts:40 - Content validation is correct
+2019-10-04 18:32:36,149  INFO [main] HeroImageProducttestscripts:43 - Content is present
+2019-10-04 18:32:36,149  INFO [main] HeroImageProducttestscripts:44 - Starting Sorting functionality testing
+2019-10-04 18:32:36,281  INFO [main] HeroImageProducttestscripts:53 - Content is present
+2019-10-04 18:32:36,281  INFO [main] HeroImageProducttestscripts:54 - Starting Sorting functionality testing
+2019-10-04 18:32:38,281 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-10-04 18:32:38,285 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-10-04 18:32:38,285 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-10-04 18:32:38,289 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-10-04 18:32:38,289 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-10-04 18:32:38,585 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-10-04 18:32:38,585 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-10-04 18:32:38,585 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-10-04 18:32:38,589 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-10-04 18:32:38,589 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-10-04 18:33:47,707  INFO [main] HeroImageProducttestscripts:26 - Starting Redirection validation
+2019-10-04 18:33:47,739  INFO [main] HeroImageProducttestscripts:28 - Redirection is on the correct page
+2019-10-04 18:33:47,739  INFO [main] HeroImageProducttestscripts:29 - Starting the Hero Image Product Validation testing
+2019-10-04 18:33:53,057  INFO [main] HeroImageProducttestscripts:40 - Content validation is correct
+2019-10-04 18:33:53,274  INFO [main] HeroImageProducttestscripts:43 - Content is present
+2019-10-04 18:33:53,274  INFO [main] HeroImageProducttestscripts:44 - Starting Sorting functionality testing
+2019-10-04 18:33:53,410  INFO [main] HeroImageProducttestscripts:53 - Content is present
+2019-10-04 18:33:53,410  INFO [main] HeroImageProducttestscripts:54 - Starting Sorting functionality testing
+2019-10-04 18:33:55,639 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-10-04 18:33:55,639 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-10-04 18:33:55,643 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-10-04 18:33:55,647 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-10-04 18:33:55,647 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-10-04 18:33:56,107 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-10-04 18:33:56,107 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-10-04 18:33:56,107 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-10-04 18:33:56,111 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-10-04 18:33:56,111 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-10-04 18:41:47,854  INFO [main] HeroImageProducttestscripts:26 - Starting Redirection validation
+2019-10-04 18:41:47,884  INFO [main] HeroImageProducttestscripts:28 - Redirection is on the correct page
+2019-10-04 18:41:47,884  INFO [main] HeroImageProducttestscripts:29 - Starting the Hero Image Product Validation testing
+2019-10-04 18:41:53,423  INFO [main] HeroImageProducttestscripts:40 - Content validation is correct
+2019-10-04 18:41:53,631  INFO [main] HeroImageProducttestscripts:43 - Content is present
+2019-10-04 18:41:53,631  INFO [main] HeroImageProducttestscripts:44 - Starting Sorting functionality testing
+2019-10-04 18:41:53,759  INFO [main] HeroImageProducttestscripts:53 - Content is present
+2019-10-04 18:41:53,759  INFO [main] HeroImageProducttestscripts:54 - Starting Sorting functionality testing
+2019-10-04 18:41:55,586 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-10-04 18:41:55,586 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-10-04 18:41:55,590 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-10-04 18:41:55,590 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-10-04 18:41:55,594 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-10-04 18:41:55,909 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-10-04 18:41:55,909 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-10-04 18:41:55,909 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-10-04 18:41:55,913 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-10-04 18:41:55,913 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-10-04 18:49:54,059  INFO [main] HeroImageProducttestscripts:26 - Starting Redirection validation
+2019-10-04 18:49:54,086  INFO [main] HeroImageProducttestscripts:28 - Redirection is on the correct page
+2019-10-04 18:49:54,086  INFO [main] HeroImageProducttestscripts:29 - Starting the Hero Image Product Validation testing
+2019-10-04 18:50:00,327  INFO [main] HeroImageProducttestscripts:40 - Content validation is correct
+2019-10-04 18:50:00,522  INFO [main] HeroImageProducttestscripts:43 - Content is present
+2019-10-04 18:50:00,522  INFO [main] HeroImageProducttestscripts:44 - Starting Sorting functionality testing
+2019-10-04 18:50:00,642  INFO [main] HeroImageProducttestscripts:53 - Content is present
+2019-10-04 18:50:00,642  INFO [main] HeroImageProducttestscripts:54 - Starting Sorting functionality testing
+2019-10-04 18:50:02,462 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-10-04 18:50:02,466 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-10-04 18:50:02,470 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-10-04 18:50:02,470 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-10-04 18:50:02,470 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-10-04 18:50:02,902 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-10-04 18:50:02,904 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-10-04 18:50:02,905 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-10-04 18:50:02,906 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-10-04 18:50:02,906 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-10-04 18:50:52,059  INFO [main] HeroImageProducttestscripts:26 - Starting Redirection validation
+2019-10-04 18:50:52,086  INFO [main] HeroImageProducttestscripts:28 - Redirection is on the correct page
+2019-10-04 18:50:52,086  INFO [main] HeroImageProducttestscripts:29 - Starting the Hero Image Product Validation testing
+2019-10-04 18:50:57,818  INFO [main] HeroImageProducttestscripts:40 - Content validation is correct
+2019-10-04 18:50:58,021  INFO [main] HeroImageProducttestscripts:43 - Content is present
+2019-10-04 18:50:58,021  INFO [main] HeroImageProducttestscripts:44 - Starting Sorting functionality testing
+2019-10-04 18:50:58,141  INFO [main] HeroImageProducttestscripts:53 - Content is present
+2019-10-04 18:50:58,141  INFO [main] HeroImageProducttestscripts:54 - Starting Sorting functionality testing
+2019-10-04 18:50:59,951 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-10-04 18:50:59,951 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-10-04 18:50:59,955 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-10-04 18:50:59,959 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-10-04 18:50:59,959 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-10-04 18:51:00,295 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-10-04 18:51:00,298 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-10-04 18:51:00,299 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-10-04 18:51:00,300 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-10-04 18:51:00,300 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-10-04 18:51:39,243  INFO [main] HeroImageProducttestscripts:26 - Starting Redirection validation
+2019-10-04 18:51:39,266  INFO [main] HeroImageProducttestscripts:28 - Redirection is on the correct page
+2019-10-04 18:51:39,266  INFO [main] HeroImageProducttestscripts:29 - Starting the Hero Image Product Validation testing
+2019-10-04 18:51:44,677  INFO [main] HeroImageProducttestscripts:40 - Content validation is correct
+2019-10-04 18:51:44,892  INFO [main] HeroImageProducttestscripts:43 - Content is present
+2019-10-04 18:51:44,896  INFO [main] HeroImageProducttestscripts:44 - Starting Sorting functionality testing
+2019-10-04 18:51:45,048  INFO [main] HeroImageProducttestscripts:53 - Content is present
+2019-10-04 18:51:45,048  INFO [main] HeroImageProducttestscripts:54 - Starting Sorting functionality testing
+2019-10-04 18:51:47,089 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-10-04 18:51:47,089 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-10-04 18:51:47,093 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-10-04 18:51:47,093 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-10-04 18:51:47,093 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-10-04 18:51:47,505 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-10-04 18:51:47,509 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-10-04 18:51:47,510 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-10-04 18:51:47,515 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-10-04 18:51:47,515 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-10-04 18:53:59,000  INFO [main] HeroImageProducttestscripts:26 - Starting Redirection validation
+2019-10-04 18:53:59,029  INFO [main] HeroImageProducttestscripts:28 - Redirection is on the correct page
+2019-10-04 18:53:59,029  INFO [main] HeroImageProducttestscripts:29 - Starting the Hero Image Product Validation testing
+2019-10-04 18:54:03,674  INFO [main] HeroImageProducttestscripts:40 - Content validation is correct
+2019-10-04 18:54:03,882  INFO [main] HeroImageProducttestscripts:43 - Content is present
+2019-10-04 18:54:03,886  INFO [main] HeroImageProducttestscripts:44 - Starting Sorting functionality testing
+2019-10-04 18:54:04,010  INFO [main] HeroImageProducttestscripts:53 - Content is present
+2019-10-04 18:54:04,014  INFO [main] HeroImageProducttestscripts:54 - Starting Sorting functionality testing
+2019-10-04 18:54:05,871 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-10-04 18:54:05,876 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-10-04 18:54:05,880 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-10-04 18:54:05,884 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-10-04 18:54:05,884 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-10-04 18:54:06,364 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-10-04 18:54:06,364 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-10-04 18:54:06,364 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-10-04 18:54:06,368 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-10-04 18:54:06,368 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-10-04 18:55:26,777  INFO [main] HeroImageProducttestscripts:26 - Starting Redirection validation
+2019-10-04 18:55:26,806  INFO [main] HeroImageProducttestscripts:28 - Redirection is on the correct page
+2019-10-04 18:55:26,806  INFO [main] HeroImageProducttestscripts:29 - Starting the Hero Image Product Validation testing
+2019-10-04 18:55:32,137  INFO [main] HeroImageProducttestscripts:40 - Content validation is correct
+2019-10-04 18:55:32,340  INFO [main] HeroImageProducttestscripts:43 - Content is present
+2019-10-04 18:55:32,340  INFO [main] HeroImageProducttestscripts:44 - Starting Sorting functionality testing
+2019-10-04 18:55:32,476  INFO [main] HeroImageProducttestscripts:53 - Content is present
+2019-10-04 18:55:32,476  INFO [main] HeroImageProducttestscripts:54 - Starting Sorting functionality testing
+2019-10-04 18:55:34,420 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-10-04 18:55:34,424 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-10-04 18:55:34,424 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-10-04 18:55:34,428 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-10-04 18:55:34,428 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-10-04 18:55:34,855 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-10-04 18:55:34,858 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-10-04 18:55:34,859 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-10-04 18:55:34,860 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-10-04 18:55:34,860 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-10-04 18:57:28,948  INFO [main] HeroImageProducttestscripts:26 - Starting Redirection validation
+2019-10-04 18:57:28,987  INFO [main] HeroImageProducttestscripts:28 - Redirection is on the correct page
+2019-10-04 18:57:28,991  INFO [main] HeroImageProducttestscripts:29 - Starting the Hero Image Product Validation testing
+2019-10-04 18:57:34,585  INFO [main] HeroImageProducttestscripts:40 - Content validation is correct
+2019-10-04 18:57:34,791  INFO [main] HeroImageProducttestscripts:43 - Content is present
+2019-10-04 18:57:34,791  INFO [main] HeroImageProducttestscripts:44 - Starting Sorting functionality testing
+2019-10-04 18:57:34,915  INFO [main] HeroImageProducttestscripts:53 - Content is present
+2019-10-04 18:57:34,915  INFO [main] HeroImageProducttestscripts:54 - Starting Sorting functionality testing
+2019-10-04 18:57:37,023 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-10-04 18:57:37,023 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-10-04 18:57:37,027 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-10-04 18:57:37,031 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-10-04 18:57:37,031 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-10-04 18:57:37,403 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-10-04 18:57:37,405 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-10-04 18:57:37,406 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-10-04 18:57:37,407 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-10-04 18:57:37,407 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-10-04 19:00:14,427  INFO [main] HeroImageProducttestscripts:26 - Starting Redirection validation
+2019-10-04 19:00:14,455  INFO [main] HeroImageProducttestscripts:28 - Redirection is on the correct page
+2019-10-04 19:00:14,455  INFO [main] HeroImageProducttestscripts:29 - Starting the Hero Image Product Validation testing
+2019-10-04 19:00:19,823  INFO [main] HeroImageProducttestscripts:40 - Content validation is correct
+2019-10-04 19:00:20,063  INFO [main] HeroImageProducttestscripts:43 - Content is present
+2019-10-04 19:00:20,063  INFO [main] HeroImageProducttestscripts:44 - Starting Sorting functionality testing
+2019-10-04 19:00:20,199  INFO [main] HeroImageProducttestscripts:53 - Content is present
+2019-10-04 19:00:20,199  INFO [main] HeroImageProducttestscripts:54 - Starting Sorting functionality testing
+2019-10-04 19:00:23,715  INFO [main] HeroImageProducttestscripts:66 - sorting is correct
+2019-10-04 19:00:24,664 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-10-04 19:00:24,668 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-10-04 19:00:24,668 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-10-04 19:00:24,672 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-10-04 19:00:24,672 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-10-04 19:00:25,120 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-10-04 19:00:25,123 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-10-04 19:00:25,125 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-10-04 19:00:25,125 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-10-04 19:00:25,125 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-10-04 19:44:12,445  INFO [main] HeroImageProducttestscripts:26 - Starting Redirection validation
+2019-10-04 19:44:12,474  INFO [main] HeroImageProducttestscripts:28 - Redirection is on the correct page
+2019-10-04 19:44:12,474  INFO [main] HeroImageProducttestscripts:29 - Starting the Hero Image Product Validation testing
+2019-10-04 19:44:18,209  INFO [main] HeroImageProducttestscripts:40 - Content validation is correct
+2019-10-04 19:44:18,411  INFO [main] HeroImageProducttestscripts:43 - Content is present
+2019-10-04 19:44:18,411  INFO [main] HeroImageProducttestscripts:44 - Starting Sorting functionality testing
+2019-10-04 19:44:18,547  INFO [main] HeroImageProducttestscripts:53 - Content is present
+2019-10-04 19:44:18,551  INFO [main] HeroImageProducttestscripts:54 - Starting Sorting functionality testing
+2019-10-04 19:44:21,902  INFO [main] HeroImageProducttestscripts:66 - sorting is correct
+2019-10-04 19:44:27,266  INFO [main] HeroImageProducttestscripts:78 - sorting is correct
+2019-10-04 19:44:28,263 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-10-04 19:44:28,267 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-10-04 19:44:28,269 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-10-04 19:44:28,273 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-10-04 19:44:28,273 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-10-04 19:44:28,669 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-10-04 19:44:28,673 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-10-04 19:44:28,677 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-10-04 19:44:28,677 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-10-04 19:44:28,677 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-10-04 20:35:23,130  INFO [main] HomePagetestscripts:32 - Starting Redirection validation
+2019-10-04 20:35:23,169  INFO [main] HomePagetestscripts:34 - Redirection is on the correct page
+2019-10-04 20:35:23,169  INFO [main] HomePagetestscripts:35 - Starting the homepage testing
+2019-10-04 20:39:06,530  INFO [main] HomePagetestscripts:48 - Validation done
+2019-10-04 20:39:55,433  INFO [main] HomePagetestscripts:48 - Validation done
+2019-10-04 20:41:08,593  INFO [main] HomePagetestscripts:66 - Validation done
+2019-10-04 20:42:01,001  INFO [main] HomePagetestscripts:66 - Validation done
+2019-10-04 20:42:05,369  INFO [main] HeroImageProducttestscripts:29 - Starting Redirection validation
+2019-10-04 20:42:05,403  INFO [main] HeroImageProducttestscripts:31 - Redirection is on the correct page
+2019-10-04 20:42:05,404  INFO [main] HeroImageProducttestscripts:32 - Starting the Hero Image Product Validation testing
+2019-10-04 20:42:53,745 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-10-04 20:42:53,748 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-10-04 20:42:53,750 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-10-04 20:42:53,752 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-10-04 20:42:53,753 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-10-04 20:42:54,171 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-10-04 20:42:54,173 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-10-04 20:42:54,175 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-10-04 20:42:54,176 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-10-04 20:42:54,177 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="1" name="InputFunctionalityTest">
+		<classes>
+
+			<class name="com.atmecs.testScripts.HomePagetestscripts" />
+
+		</classes>
+	</test> <!-- Test -->
+
+	<test thread-count="2" name="sortingFunctionalityTest">
+		<classes>
+
+			<class
+				name="com.atmecs.testScripts.HeroImageProducttestscripts" />
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

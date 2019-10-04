@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="InputFunctionalityTest(failed)">
+    <classes>
+      <class name="com.atmecs.testScripts.HomePagetestscripts">
+        <methods>
+          <include name="print"/>
+          <include name="endReport"/>
+          <include name="tearDown"/>
+          <include name="validateProductAvilability" invocation-numbers="0 1"/>
+          <include name="startReport"/>
+          <include name="intitailizeBrowser"/>
+        </methods>
+      </class> <!-- com.atmecs.testScripts.HomePagetestscripts -->
+    </classes>
+  </test> <!-- InputFunctionalityTest(failed) -->
+  <test thread-count="5" name="sortingFunctionalityTest(failed)">
+    <classes>
+      <class name="com.atmecs.testScripts.HeroImageProducttestscripts">
+        <methods>
+          <include name="validateContents"/>
+          <include name="print"/>
+          <include name="validateSortingByRating"/>
+          <include name="endReport"/>
+          <include name="tearDown"/>
+          <include name="startReport"/>
+          <include name="intitailizeBrowser"/>
+          <include name="validateSortingByDate"/>
+          <include name="validateSortingFunctionality"/>
+        </methods>
+      </class> <!-- com.atmecs.testScripts.HeroImageProducttestscripts -->
+    </classes>
+  </test> <!-- sortingFunctionalityTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
