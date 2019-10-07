@@ -9,7 +9,7 @@
 		</classes>
 	</test> <!-- Test -->
 
-	<test thread-count="2" name="sortingFunctionalityTest">
+	<test thread-count="1" name="sortingFunctionalityTest">
 		<classes>
 
 			<class
@@ -17,4 +17,15 @@
 
 		</classes>
 	</test> <!-- Test -->
+
+	<test thread-count="1" name="PricesortingFunctionalityTest">
+		<classes>
+
+			<class
+
+				name="com.atmecs.testScripts.HomePageComputerPeripherals" />
+
+		</classes>
+	</test> <!-- Test -->
+
 </suite> <!-- Suite -->

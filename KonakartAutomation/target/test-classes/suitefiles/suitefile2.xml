@@ -3,7 +3,7 @@
 <suite name="Suite2">
   <test thread-count="5" name="Test2">
     <classes>
-     <class name="com/atmecs/testScripts/InsightsValidation" />
+     <class name="com.atmecs.testScripts.HeroImageProducttestscripts" />
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

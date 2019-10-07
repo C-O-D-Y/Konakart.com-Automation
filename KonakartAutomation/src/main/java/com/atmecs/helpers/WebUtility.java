@@ -298,4 +298,34 @@ public class WebUtility extends TestBase {
 
 		});
 	}
+
+	/**
+	 * Method sets the attribute value of the web element
+	 * 
+	 * @param xpath
+	 */
+	public static void setAttributeValue(String xpath, int xOffset) {
+
+		WebElement slider = WebUtility.getElement(xpath);
+		Actions move = new Actions(driver);
+		// move.moveToElement(slider).clickAndHold().moveByOffset(xOffset,
+		// 0).release().build().perform();
+		move.clickAndHold(slider).dragAndDropBy(slider, xOffset, 0).build().perform();
+		try {
+			Thread.sleep(3500);
+		} catch (InterruptedException e) {
+			
+			e.printStackTrace();
+		}
+	}
+
+	/**
+	 * Method perform
+	 * 
+	 * @param xpath
+	 */
+	public static void scrollBySpacebar() {
+
+		action.sendKeys(Keys.SPACE).build().perform();
+	}
 }

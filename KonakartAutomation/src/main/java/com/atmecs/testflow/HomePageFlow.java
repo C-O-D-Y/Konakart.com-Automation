@@ -27,5 +27,14 @@ public class HomePageFlow {
 	public static void selectProduct(String product) {
 		WebUtility.clickAndSendText(Locators.getLocators("loc.textinput.search"), product);
 		WebUtility.clickElement(Locators.getLocators("loc.btn.search"));
+	
+	}
+
+	public static void selectProductByDropdown(String product) {
+		WebUtility.clickAndSendText(Locators.getLocators("loc.textinput.search"), product);
+		WebUtility
+				.explicitWait(Locators.getLocators("loc.inputText.insertGraphicsCards").replace("dummytext", product));
+		WebUtility
+				.clickElement(Locators.getLocators("loc.inputText.insertGraphicsCards").replace("dummytext", product));
 	}
 }

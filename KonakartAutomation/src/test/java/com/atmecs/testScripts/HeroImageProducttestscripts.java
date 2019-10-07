@@ -21,7 +21,7 @@ public class HeroImageProducttestscripts extends TestBase {
 	/*
 	 * Test validates the homepage redirection of the konakart.com
 	 */
-	@Test(priority = 4)
+	@Test(priority = 5)
 	public void homePageRedirection() {
 		log = Logger.getLogger(HeroImageProducttestscripts.class);
 		LogReport.getlogger();
@@ -36,7 +36,7 @@ public class HeroImageProducttestscripts extends TestBase {
 	/*
 	 * Test validates the content of the product description and specification
 	 */
-	@Test(priority = 5)
+	@Test(priority = 6)
 	public void validateContents() {
 		log = Logger.getLogger(HeroImageProducttestscripts.class);
 		LogReport.getlogger();
@@ -53,7 +53,7 @@ public class HeroImageProducttestscripts extends TestBase {
 	/*
 	 * Test maintain the flow to the second page by clicking customer reviews.
 	 */
-	@Test(priority = 6)
+	@Test(priority = 7)
 	public void validateSortingFunctionality() {
 		log = Logger.getLogger(HeroImageProducttestscripts.class);
 		LogReport.getlogger();
@@ -66,7 +66,7 @@ public class HeroImageProducttestscripts extends TestBase {
 	 * Test validates the sorting functionality of the date selection type
 	 */
 
-	@Test(priority = 7)
+	@Test(priority = 8)
 	public void validateSortingByDate() {
 		log = Logger.getLogger(HeroImageProducttestscripts.class);
 		LogReport.getlogger();
@@ -81,7 +81,7 @@ public class HeroImageProducttestscripts extends TestBase {
 	/*
 	 * Test validates the sorting functionality of the rating selection type
 	 */
-	@Test(priority = 8)
+	@Test(priority = 9)
 	public void validateSortingByRating() {
 		log = Logger.getLogger(HeroImageProducttestscripts.class);
 		LogReport.getlogger();

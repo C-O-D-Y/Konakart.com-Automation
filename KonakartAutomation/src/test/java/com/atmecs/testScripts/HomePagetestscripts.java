@@ -39,6 +39,7 @@ public class HomePagetestscripts extends TestBase {
 	@Test(priority = 2, dataProvider = "rightCategory", dataProviderClass = TestDataProvider.class)
 	public void validateProductAvilability(String category, String product, String expectedProductName)
 			throws InterruptedException {
+		logger = extent.startTest("Validating input functionality");
 		try {
 			HomePageFlow.clickCategory(category);
 			HomePageFlow.selectProduct(product);

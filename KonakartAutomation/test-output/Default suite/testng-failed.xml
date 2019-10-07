@@ -3,16 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.atmecs.testScripts.HeroImageProducttestscripts">
+      <class name="com.atmecs.testScripts.HomePageComputerPeripherals">
         <methods>
+          <include name="validatePricingSortingFunctionality" invocation-numbers="0 1 2 3 4"/>
           <include name="print"/>
           <include name="endReport"/>
           <include name="tearDown"/>
           <include name="startReport"/>
           <include name="intitailizeBrowser"/>
-          <include name="validateSortingByDate"/>
         </methods>
-      </class> <!-- com.atmecs.testScripts.HeroImageProducttestscripts -->
+      </class> <!-- com.atmecs.testScripts.HomePageComputerPeripherals -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -37,8 +37,9 @@ public class HeroImageProductValidation {
 			System.out.println("Product description is right");
 		}
 	}
+
 	/**
-	 * Method use to get the content of the  product specification
+	 * Method use to get the content of the product specification
 	 */
 	public void validateSpecificationContent() {
 		String content = WebUtility.getText(Locators.getLocators("loc.text.productSpecification"));

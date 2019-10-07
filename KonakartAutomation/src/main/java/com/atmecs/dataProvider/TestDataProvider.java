@@ -38,6 +38,39 @@ public class TestDataProvider {
 	}
 
 	/**
+	 * In this method, getting the data inside the header(SERVICES) into object
+	 * array and returning to the calling method
+	 */
+	@DataProvider(name = "wrongProduct")
+	public Object[][] getProduct() {
+		ProvideExcelData provideData = new ProvideExcelData(FilePath.TESTDATA_FILE, 2);
+		Object[][] getData = provideData.provideExcelData();
+		return getData;
+	}
+
+	/**
+	 * In this method, getting the data inside the header(SERVICES) into object
+	 * array and returning to the calling method
+	 */
+	@DataProvider(name = "rightProduct")
+	public Object[][] getProduct1() {
+		ProvideExcelData provideData = new ProvideExcelData(FilePath.TESTDATA_FILE, 3);
+		Object[][] getData = provideData.provideExcelData();
+		return getData;
+	}
+
+	/**
+	 * In this method, getting the pricing for sorting the products and saving it
+	 * into array and returning to the calling method
+	 */
+	@DataProvider(name = "pricing")
+	public Object[][] getPricing() {
+		ProvideExcelData provideData = new ProvideExcelData(FilePath.TESTDATA_FILE, 4);
+		Object[][] getData = provideData.provideExcelData();
+		return getData;
+	}
+
+	/**
 	 * In this method, calling the method to check the data
 	 */
 	@Test(priority = 2, dataProvider = "category", dataProviderClass = TestDataProvider.class)

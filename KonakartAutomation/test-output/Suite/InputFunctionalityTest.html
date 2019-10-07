@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>5/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Oct 04 20:35:16 IST 2019</td>
+<td>Started on:</td><td>Mon Oct 07 20:36:54 IST 2019</td>
 </tr>
-<tr><td>Total time:</td><td>405 seconds (405551 ms)</td>
+<tr><td>Total time:</td><td>47 seconds (47734 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,13 +76,14 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='com.atmecs.testScripts.HomePagetestscripts.validateProductAvilability()'><b>validateProductAvilability</b><br>Test class: com.atmecs.testScripts.HomePagetestscripts<br>Parameters: Computer Peripherals, graphics Cards, Matrox G200 MMS</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //a[text()=&apos;Matrox G200 MMS&apos;]
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[text()=&apos;Matrox G200 MMS&apos;]&quot;}
+  (Session info: chrome=77.0.3865.90)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;ATMECSINLT-038&apos;, ip: &apos;55.55.52.193&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.1&apos;
-Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: https://www.konakart.com/ko..., nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: b6197578-91f8-4efc-b7f4-75790864c94a
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\SAURAB~1.CHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:54903}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 32cddab5c200765af5f57e6f86ebf1dc
 *** Element info: {Using=xpath, value=//a[text()=&apos;Matrox G200 MMS&apos;]}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
@@ -96,15 +97,16 @@ Session ID: b6197578-91f8-4efc-b7f4-75790864c94a
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 	at com.atmecs.helpers.WebUtility.getText(WebUtility.java:98)
 	at com.atmecs.pages.HomePage.isProductAvailable(HomePage.java:37)
-	at com.atmecs.testScripts.HomePagetestscripts.validateProductAvilability(HomePagetestscripts.java:47)
-... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace704387627", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace704387627'><pre>org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //a[text()=&apos;Matrox G200 MMS&apos;]
+	at com.atmecs.testScripts.HomePagetestscripts.validateProductAvilability(HomePagetestscripts.java:48)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace183995527", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace183995527'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[text()=&apos;Matrox G200 MMS&apos;]&quot;}
+  (Session info: chrome=77.0.3865.90)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;ATMECSINLT-038&apos;, ip: &apos;55.55.52.193&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.1&apos;
-Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: https://www.konakart.com/ko..., nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: b6197578-91f8-4efc-b7f4-75790864c94a
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\SAURAB~1.CHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:54903}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 32cddab5c200765af5f57e6f86ebf1dc
 *** Element info: {Using=xpath, value=//a[text()=&apos;Matrox G200 MMS&apos;]}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -123,7 +125,7 @@ Session ID: b6197578-91f8-4efc-b7f4-75790864c94a
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 	at com.atmecs.helpers.WebUtility.getText(WebUtility.java:98)
 	at com.atmecs.pages.HomePage.isProductAvailable(HomePage.java:37)
-	at com.atmecs.testScripts.HomePagetestscripts.validateProductAvilability(HomePagetestscripts.java:47)
+	at com.atmecs.testScripts.HomePagetestscripts.validateProductAvilability(HomePagetestscripts.java:48)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -150,17 +152,18 @@ Session ID: b6197578-91f8-4efc-b7f4-75790864c94a
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>82</td>
+<td>8</td>
 <td>com.atmecs.testScripts.HomePagetestscripts@1df82230</td></tr>
 <tr>
 <td title='com.atmecs.testScripts.HomePagetestscripts.validateProductAvilability()'><b>validateProductAvilability</b><br>Test class: com.atmecs.testScripts.HomePagetestscripts<br>Parameters: Computer Peripherals, graphics card, Matrox G200 MMS</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //a[text()=&apos;Matrox G200 MMS&apos;]
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[text()=&apos;Matrox G200 MMS&apos;]&quot;}
+  (Session info: chrome=77.0.3865.90)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;ATMECSINLT-038&apos;, ip: &apos;55.55.52.193&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.1&apos;
-Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: https://www.konakart.com/ko..., nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: b6197578-91f8-4efc-b7f4-75790864c94a
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\SAURAB~1.CHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:54903}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 32cddab5c200765af5f57e6f86ebf1dc
 *** Element info: {Using=xpath, value=//a[text()=&apos;Matrox G200 MMS&apos;]}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
@@ -174,15 +177,16 @@ Session ID: b6197578-91f8-4efc-b7f4-75790864c94a
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 	at com.atmecs.helpers.WebUtility.getText(WebUtility.java:98)
 	at com.atmecs.pages.HomePage.isProductAvailable(HomePage.java:37)
-	at com.atmecs.testScripts.HomePagetestscripts.validateProductAvilability(HomePagetestscripts.java:47)
-... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1802029863", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1802029863'><pre>org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //a[text()=&apos;Matrox G200 MMS&apos;]
+	at com.atmecs.testScripts.HomePagetestscripts.validateProductAvilability(HomePagetestscripts.java:48)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2010221835", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2010221835'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[text()=&apos;Matrox G200 MMS&apos;]&quot;}
+  (Session info: chrome=77.0.3865.90)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;ATMECSINLT-038&apos;, ip: &apos;55.55.52.193&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.1&apos;
-Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: https://www.konakart.com/ko..., nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: b6197578-91f8-4efc-b7f4-75790864c94a
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\SAURAB~1.CHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:54903}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 32cddab5c200765af5f57e6f86ebf1dc
 *** Element info: {Using=xpath, value=//a[text()=&apos;Matrox G200 MMS&apos;]}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -201,7 +205,7 @@ Session ID: b6197578-91f8-4efc-b7f4-75790864c94a
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 	at com.atmecs.helpers.WebUtility.getText(WebUtility.java:98)
 	at com.atmecs.pages.HomePage.isProductAvailable(HomePage.java:37)
-	at com.atmecs.testScripts.HomePagetestscripts.validateProductAvilability(HomePagetestscripts.java:47)
+	at com.atmecs.testScripts.HomePagetestscripts.validateProductAvilability(HomePagetestscripts.java:48)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -228,7 +232,7 @@ Session ID: b6197578-91f8-4efc-b7f4-75790864c94a
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>74</td>
+<td>7</td>
 <td>com.atmecs.testScripts.HomePagetestscripts@1df82230</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
@@ -246,22 +250,22 @@ Session ID: b6197578-91f8-4efc-b7f4-75790864c94a
 <tr>
 <td title='com.atmecs.testScripts.HomePagetestscripts.validateErrorMessage()'><b>validateErrorMessage</b><br>Test class: com.atmecs.testScripts.HomePagetestscripts<br>Parameters: Computer Peripherals, gyuwdwfduygbed, There are no available products.</td>
 <td></td>
-<td>73</td>
+<td>2</td>
 <td>com.atmecs.testScripts.HomePagetestscripts@1df82230</td></tr>
 <tr>
 <td title='com.atmecs.testScripts.HomePagetestscripts.validateErrorMessage()'><b>validateErrorMessage</b><br>Test class: com.atmecs.testScripts.HomePagetestscripts<br>Parameters: Games, gywdcygvgy, There are no available products.</td>
 <td></td>
-<td>52</td>
+<td>1</td>
 <td>com.atmecs.testScripts.HomePagetestscripts@1df82230</td></tr>
 <tr>
 <td title='com.atmecs.testScripts.HomePagetestscripts.validateProductAvilability()'><b>validateProductAvilability</b><br>Test class: com.atmecs.testScripts.HomePagetestscripts<br>Parameters: Games, call Of DUTY, Call Of Duty</td>
 <td></td>
-<td>64</td>
+<td>1</td>
 <td>com.atmecs.testScripts.HomePagetestscripts@1df82230</td></tr>
 <tr>
 <td title='com.atmecs.testScripts.HomePagetestscripts.validateProductAvilability()'><b>validateProductAvilability</b><br>Test class: com.atmecs.testScripts.HomePagetestscripts<br>Parameters: Software, windows 8, Windows 8</td>
 <td></td>
-<td>48</td>
+<td>6</td>
 <td>com.atmecs.testScripts.HomePagetestscripts@1df82230</td></tr>
 </table><p>
 </body>

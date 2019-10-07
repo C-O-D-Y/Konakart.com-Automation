@@ -48,8 +48,10 @@ public class HomePage {
 	 */
 
 	public void isErrorMessageDisplayed(String errorMsg) {
+		System.out.println("error msg=" + errorMsg);
 		String actualMsg = WebUtility.getText(Locators.getLocators("loc.errorMsg.product"));
-		Assert.assertEquals(actualMsg, errorMsg, "msg is not displayed");
+		System.out.println("Actual msg" + actualMsg);
+		Assert.assertTrue(actualMsg.contains(errorMsg), "msg is not displayed");
 		System.out.println("Error message functionality is correct");
 
 	}

@@ -15,21 +15,18 @@
       </class> <!-- com.atmecs.testScripts.HomePagetestscripts -->
     </classes>
   </test> <!-- InputFunctionalityTest(failed) -->
-  <test thread-count="5" name="sortingFunctionalityTest(failed)">
+  <test thread-count="5" name="PricesortingFunctionalityTest(failed)">
     <classes>
-      <class name="com.atmecs.testScripts.HeroImageProducttestscripts">
+      <class name="com.atmecs.testScripts.HomePageComputerPeripherals">
         <methods>
-          <include name="validateContents"/>
+          <include name="validatePricingSortingFunctionality" invocation-numbers="0 1 2 3 4"/>
           <include name="print"/>
-          <include name="validateSortingByRating"/>
           <include name="endReport"/>
           <include name="tearDown"/>
           <include name="startReport"/>
           <include name="intitailizeBrowser"/>
-          <include name="validateSortingByDate"/>
-          <include name="validateSortingFunctionality"/>
         </methods>
-      </class> <!-- com.atmecs.testScripts.HeroImageProducttestscripts -->
+      </class> <!-- com.atmecs.testScripts.HomePageComputerPeripherals -->
     </classes>
-  </test> <!-- sortingFunctionalityTest(failed) -->
+  </test> <!-- PricesortingFunctionalityTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->
